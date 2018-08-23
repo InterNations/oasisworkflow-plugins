@@ -1,0 +1,10 @@
+{
+  "name": "oasisworkflow-plugins",
+  "type": "wordpress-muplugin",
+  "extra": {
+    "installer-name": "",
+    "branch-alias": {
+        "dev-master": "1.0.0"
+    }
+  }
+}
