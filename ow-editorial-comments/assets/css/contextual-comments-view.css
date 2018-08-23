@@ -1,0 +1,78 @@
+.comment-box{
+	border-radius: 8px;
+	border: 1px solid #fa577d;
+	width: 250px;
+	position: absolute;
+	display: block;
+	visibility: hidden;;
+}
+.comment-close{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: #fff;
+	float: right;
+	border-radius: 50%;
+	color:#fa577d;
+	text-align: center;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.comment-close:hover{
+	box-shadow: 0 0 1px rgba(0,0,0,0.9) inset;
+	color: #fff;
+	background: #777; /* Параметры тени */
+
+}
+
+.comment-header{
+	background: #fa577d;
+	color:#fff;
+	padding: 5px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.owfc-comment-body{
+	background: #f8e8f0;
+	padding: 2px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.owfc-comment-body span {
+    font-weight: 600;
+}
+
+.owfc-comment{
+	background-color: #ffff7d;
+	font-size: 16px;
+	padding: 3px;
+	border-bottom: 2px solid #fff;
+	cursor: pointer;
+	position: relative;
+	}
+
+.owfc-comment:after{
+	content: '';
+	width: 1000px;
+	height: 2px;
+   z-index: -2;
+	display: block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-top: dashed #fa577d 2px;
+	position: absolute;
+	visibility: hidden;
+	left: 0px;
+	}
+
+.long-show-comment:after, .long-show-box, .show-comment-box, .show-comment:after{
+	visibility: visible;
+	}
+
+.long-show-comment, .show-comment{
+	background: #ffd7ea;
+	}

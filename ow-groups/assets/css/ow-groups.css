@@ -1,0 +1,30 @@
+.subsubsub {
+   float:none;
+}
+.form-element {
+	padding: 8px; 
+	width: 52em;
+	background-image: linear-gradient(to bottom, #eee 1%, #fff 3%);
+	border: 1px solid #aaa !important;
+	cursor: text;
+}
+.select2-input {
+   width: 56em !important;
+ }
+ .container {
+   margin-top: 2em;
+ }
+ fieldset {
+   margin-top: 3em; 
+   border: 1px solid #ccc; 
+   padding: 1em 2em;
+ }
+ legend {
+   font-size: 1.1em;
+   font-weight: bold;
+   padding: 0 5px;
+}
+
+.owt-padding-bottom {
+	padding-bottom:10px;
+}

@@ -1,0 +1,137 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Oasis Workflow Front End Actions\n"
+"POT-Creation-Date: 2016-11-27 07:42-0800\n"
+"PO-Revision-Date: 2015-11-24 06:07-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ow-front-end-actions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ow-fe-contextual-widget.php:29
+#: includes/class-ow-fe-contextual-widget.php:65
+msgid "Editorial Comments"
+msgstr ""
+
+#: includes/class-ow-fe-contextual-widget.php:31
+msgid "To view editorial comments from the front end"
+msgstr ""
+
+#: includes/class-ow-fe-contextual-widget.php:68
+msgid "Title:"
+msgstr ""
+
+#: includes/class-ow-fe-inbox.php:66
+msgid "Workflow Inbox"
+msgstr ""
+
+#: includes/class-ow-fe-inbox.php:259
+msgid "Claim"
+msgstr ""
+
+#: includes/class-ow-fe-inbox.php:262
+msgid "Sign Off"
+msgstr ""
+
+#: includes/class-ow-fe-license-settings.php:60
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+
+#: includes/class-ow-fe-license-settings.php:75
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+
+#: includes/class-ow-fe-license-settings.php:95
+msgid "license key"
+msgstr ""
+
+#: includes/class-ow-fe-license-settings.php:100
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/class-ow-fe-make-revision.php:49
+msgid "Make Revision"
+msgstr ""
+
+#: includes/class-ow-fe-utilities.php:73
+msgid "There's something wrong with your code..."
+msgstr ""
+
+#: ow-front-end-actions.php:448
+msgid "Welcome to Oasis Workflow Front End Actions"
+msgstr ""
+
+#: ow-front-end-actions.php:451
+#, php-format
+msgid ""
+"To get started with Front End Actions, activate the add-on by providing a "
+"valid license key on Workflows %s Settings, License tab."
+msgstr ""
+
+#: ow-front-end-actions.php:452
+msgid ""
+"Once the license is activated you will be able to use the shortcodes on "
+"any page."
+msgstr ""
+
+#: templates/global/not-logged-in-user.php:1
+msgid "You need to be logged in to view this page."
+msgstr ""
+
+#: templates/inbox/header.php:3
+msgid "Post/Page"
+msgstr ""
+
+#: templates/inbox/header.php:4
+msgid "Due Date"
+msgstr ""
+
+#: templates/inbox/header.php:5
+msgid "Comments"
+msgstr ""
+
+#: templates/inbox/header.php:6
+msgid "Action"
+msgstr ""
+
+#: templates/inbox/no-assigned-tasks.php:1
+msgid "Hurray! No Assigned tasks."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Oasis Workflow Front End Actions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oasisworkflow.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allow users to execute Oasis Workflow Actions from the front end of the "
+"website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Nugget Solutions Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.nuggetsolutions.com"
+msgstr ""

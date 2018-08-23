@@ -1,0 +1,10 @@
+body{
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:13px;
+}
+body p{
+	-webkit-margin-before: 0.5em;
+	-webkit-margin-after: 0.5em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}

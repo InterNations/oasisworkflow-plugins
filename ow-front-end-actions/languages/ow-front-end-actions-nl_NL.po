@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oasis Workflow Front End Actions\n"
+"POT-Creation-Date: 2016-11-27 07:43-0800\n"
+"PO-Revision-Date: 2016-11-27 07:43-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ow-front-end-actions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ow-fe-contextual-widget.php:29
+#: includes/class-ow-fe-contextual-widget.php:65
+msgid "Editorial Comments"
+msgstr "Redactionele Reacties"
+
+#: includes/class-ow-fe-contextual-widget.php:31
+msgid "To view editorial comments from the front end"
+msgstr "Bekijk de redactionele reacties vanaf de frontend."
+
+#: includes/class-ow-fe-contextual-widget.php:68
+msgid "Title:"
+msgstr "Titel"
+
+#: includes/class-ow-fe-inbox.php:66
+msgid "Workflow Inbox"
+msgstr "Workflow Inbox"
+
+#: includes/class-ow-fe-inbox.php:259
+msgid "Claim"
+msgstr "Eisen"
+
+#: includes/class-ow-fe-inbox.php:262
+msgid "Sign Off"
+msgstr "Aftekenen"
+
+#: includes/class-ow-fe-license-settings.php:60
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+"Licentie kan niet gedeactiveerd worden. De licentiesleutel is ongeldig of de "
+"licentie server is onbereikbaar."
+
+#: includes/class-ow-fe-license-settings.php:75
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+"Licentie kan niet geactiveerd worden. De licentiesleutel is ongeldig of de "
+"licentie server is onbereikbaar."
+
+#: includes/class-ow-fe-license-settings.php:95
+msgid "license key"
+msgstr "Licentiesleutel"
+
+#: includes/class-ow-fe-license-settings.php:100
+msgid "Deactivate License"
+msgstr "Deactivatie licentie"
+
+#: includes/class-ow-fe-make-revision.php:49
+msgid "Make Revision"
+msgstr "Maak een rivisie"
+
+#: includes/class-ow-fe-utilities.php:73
+msgid "There's something wrong with your code..."
+msgstr "Er is iets mis met je code…"
+
+#: ow-front-end-actions.php:448
+msgid "Welcome to Oasis Workflow Front End Actions"
+msgstr "Welkom bij Oasis Workflor Front End Actions"
+
+#: ow-front-end-actions.php:451
+#, php-format
+msgid ""
+"To get started with Front End Actions, activate the add-on by providing a "
+"valid license key on Workflows %s Settings, License tab."
+msgstr ""
+"Om te beginnen met Front End Actions, activeer eerst de add-on door een "
+"geldige licentie aan te leveren bij de Workflow %s Instellingen, Licentie "
+"tab."
+
+#: ow-front-end-actions.php:452
+msgid ""
+"Once the license is activated you will be able to use the shortcodes on any "
+"page."
+msgstr ""
+"Nadat u de licentie hebt geactiveerd zal u zitten kundig voor de shortcodes "
+"gebruiken op elke pagina."
+
+#: templates/global/not-logged-in-user.php:1
+msgid "You need to be logged in to view this page."
+msgstr "U moet ingelogd zijn om deze pagina te kunnen bekijken."
+
+#: templates/inbox/header.php:3
+msgid "Post/Page"
+msgstr "Bericht/Pagina"
+
+#: templates/inbox/header.php:4
+msgid "Due Date"
+msgstr "Opleveringsdatum"
+
+#: templates/inbox/header.php:5
+msgid "Comments"
+msgstr "Commentaar"
+
+#: templates/inbox/header.php:6
+msgid "Action"
+msgstr "Actie"
+
+#: templates/inbox/no-assigned-tasks.php:1
+msgid "Hurray! No Assigned tasks."
+msgstr "Geen openstaande taken."
+
+#. Plugin Name of the plugin/theme
+msgid "Oasis Workflow Front End Actions"
+msgstr "Oasis Workflow Front End Actions"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oasisworkflow.com"
+msgstr "http://www.oasisworkflow.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Allow users to execute Oasis Workflow Actions from the front end of the "
+"website."
+msgstr ""
+"Allow users to execute Oasis Workflow Actions from the front end of the "
+"website."
+
+#. Author of the plugin/theme
+msgid "Nugget Solutions Inc."
+msgstr "Nugget Solutions Inc."
+
+#. Author URI of the plugin/theme
+msgid "http://www.nuggetsolutions.com"
+msgstr "http://www.nuggetsolutions.com"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "Er is een nieuwe versie beschikbaar van %1$s. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">Bekijk versie %3$s details</a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Er is een nieuwe versie beschikbaar van %1$s. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">Bekijk versie %3$s details</a> or <a href="
+#~ "\"%4$s\">update nu</a>."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "U heeft niet de bevoegdheid om plugin updates te installeren"
+
+#~ msgid "Error"
+#~ msgstr "Foutmelding"
+
+#~ msgid ""
+#~ "Once the license is activated you will be able to use the shortcode %s on "
+#~ "any page."
+#~ msgstr ""
+#~ "Als de licentie geactiveerd is, is het mogelijk om de sportcode %s op "
+#~ "elke pagina te gebruiken."

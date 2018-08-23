@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oasis Workflow Editorial Comments\n"
+"POT-Creation-Date: 2018-06-08 18:10+0530\n"
+"PO-Revision-Date: 2018-06-08 18:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ow-editorial-comments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-editorial-comments-service.php:253
+msgid "View ( With Comments )"
+msgstr "Visa (med kommentarer)"
+
+#: includes/class-editorial-comments-service.php:294
+msgid "Contextual Text:"
+msgstr "Kontextuella"
+
+#: includes/class-editorial-comments-service.php:295
+msgid "Contextual Comment:"
+msgstr "Kontextuella kommentar"
+
+#: includes/class-editorial-comments-widget.php:35
+msgid "Editorial Comments"
+msgstr "Redaktionell dialog"
+
+#: includes/class-editorial-comments-widget.php:67
+msgid "Contextual Comments"
+msgstr "kontextuella Kommentarer"
+
+#: includes/class-editorial-comments-widget.php:121
+msgid "No comments for this post."
+msgstr "Inga kommentarer för detta inlägg."
+
+#: includes/class-editorial-comments-widget.php:201
+msgid "No Comments."
+msgstr "Inga kommentarer"
+
+#: includes/class-editorial-comments-widget.php:209
+msgid "Signed off on"
+msgstr "Signerat"
+
+#: includes/class-ow-editorial-comments-license-settings.php:62
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+"Licens kan inte inaktiveras. Licensnyckeln är ogiltig eller "
+"licensieringsservern inte kan nås."
+
+#: includes/class-ow-editorial-comments-license-settings.php:79
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+"Licens kan inte aktiveras. Licensnyckeln är ogiltig eller din aktiveringen "
+"gränsen nås."
+
+#: includes/class-ow-editorial-comments-license-settings.php:99
+msgid "license key"
+msgstr "Licens"
+
+#: includes/class-ow-editorial-comments-license-settings.php:104
+msgid "Deactivate License"
+msgstr "Deaktivera licensnyckel"
+
+#: includes/class-ow-utility.php:85
+msgid "There's something wrong with your code..."
+msgstr "Det är något fel med din kod..."
+
+#: includes/comments-upsert-popup.php:6 includes/contextual-comment-popup.php:6
+msgid "Editorial Comments On"
+msgstr "Redaktionell dialog"
+
+#: includes/comments-upsert-popup.php:13
+#: includes/contextual-comment-popup.php:13 ow-editorial-comments.php:559
+msgid "Contextual Comment"
+msgstr "Kontextuella kommentar"
+
+#: includes/comments-upsert-popup.php:24
+#: includes/contextual-comment-popup.php:24
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/comments-view-popup.php:68
+msgid "Editorial Comments On: "
+msgstr "Redaktionell dialog"
+
+#: includes/comments-view-popup.php:122
+msgid "Close"
+msgstr "Stäng"
+
+#: ow-editorial-comments.php:326
+msgid "Welcome to Oasis Workflow Editorial Comments"
+msgstr "Välkommen till Oasis Workflow Editorial Comments"
+
+#: ow-editorial-comments.php:330
+#, php-format
+msgid ""
+"To get started with Editorial Comments, activate the add-on by providing a "
+"valid license key on Workflows %s Settings, License tab."
+msgstr ""
+"För att komma igång med redaktionella kommentarer, aktivera tillägget genom "
+"en giltig licensnyckel för arbetsflöden %s inställningar, licens fliken."
+
+#: ow-editorial-comments.php:331
+#, php-format
+msgid ""
+"Once the license is activated you will see a blurb button %s in the Post "
+"Editor's TinyMCE toolbar."
+msgstr ""
+"När licensen har aktiverats visas en blurb knapp %s i inlägget Redaktörens "
+"TinyMCE verktygsfältet."
+
+#: ow-editorial-comments.php:332
+msgid ""
+"Select a text in the post content area, click the blurb icon and start "
+"adding contextual comments."
+msgstr ""
+"Markera en text i innehållsområdet post, klicka på ikonen blurb och börja "
+"lägga kontextuella kommentarer."
+
+#: ow-editorial-comments.php:558
+msgid "Contextual Text"
+msgstr "Kontextuella"
+
+#: ow-editorial-comments.php:560
+msgid "Editorial Comment On"
+msgstr "Redaktionell kommentar på"
+
+#. Plugin Name of the plugin/theme
+msgid "Oasis Workflow Editorial Comments"
+msgstr "Oasis Workflow Editorial Comments"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oasisworkflow.com"
+msgstr "http://www.oasisworkflow.com"
+
+#. Description of the plugin/theme
+msgid "Contextual Editorial Comments for Oasis Workflow"
+msgstr "Kontextuella Editorial Kommentarer för Oasis Workflow"
+
+#. Author of the plugin/theme
+msgid "Nugget Solutions Inc."
+msgstr "Nugget Solutions Inc."
+
+#. Author URI of the plugin/theme
+msgid "http://www.nuggetsolutions.com"
+msgstr "http://www.nuggetsolutions.com"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "En ny version av %1$s finns tillgänglig. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">Visa version %3$s detaljer</a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Det finns en ny version av %1$s tillgänglig. <a target=\\\"_blank\\\" "
+#~ "class=\\\"thickbox\\\" href=\\\"%2$s\\\">Visa information om version %3$s "
+#~ "</a> eller <a href=\\\"%4$s\\\">uppdatera nu</a>."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Du har inte behörighet att installera plugin uppdateringar"
+
+#~ msgid "Error"
+#~ msgstr "Fel"
+
+#~ msgid "Additionally,"
+#~ msgstr "Dessutom"
+
+#~ msgid "added the following comments"
+#~ msgstr "gav följande kommentarer"

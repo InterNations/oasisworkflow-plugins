@@ -1,0 +1,162 @@
+i.mce-i-custom-mce-icon {
+    background: url('../img/comments-icon.png');
+}
+.owf-hidden {
+    display: none;
+}
+.ow-editorial-comment-box {
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+/* Display expand collapse button */
+.ow-accordion {
+    min-height: 15px;
+    margin-bottom: 6px;
+}
+.ow-expand {
+    background: url('../img/plus.png') no-repeat right top;
+}
+.ow-collapse {
+    background: url('../img/minus.png') no-repeat right top;
+}
+.ow-outer {
+    padding: 8px;
+}
+.ow-inner{
+    margin-bottom: 10px;
+}
+#ow-no-editorial-comments {
+    display: block;
+}
+.ow-editorial-comments-blockquote,
+.ow-editorial-comments-blockquotes {
+    font-family: sans-serif;
+    font-size: 11px !important;
+    font-style: italic;
+    color: #999;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 0 0 1.5em !important;
+    padding: 0.5em 10px;
+    clear: both;
+/*    margin: 0;*/
+
+}
+.ow-editorial-comments-blockquote p {
+    display: inline;
+    font-size: 13px;
+}
+.ow-editorial-comments-blockquotes p,
+.ow-editorial-comments-blockquotes label {
+   display: inline;
+   font-size: 14px;
+}
+.comment-contents {
+    margin-top: -6px;
+}
+p.contextual-comment {
+    font-size: 13px;
+    color: #444;
+    font-weight: bold;
+}
+.author-info{
+    margin: 0;
+    color: #000;
+    font-size: 11px;
+}
+span.signature-name{
+    font-weight: normal;
+}
+span.signature-destination{
+    font-weight: normal;
+}
+ul.timestamp {
+    font-size: 10px;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    height: 16px;
+    list-style-type: none;
+}
+.timestamp li:first-child {
+    float: left;
+    width: 68%;
+}
+.timestamp li a {
+    text-decoration: none;
+}
+
+.delete-contextual-comment {
+    border-color: #ebccd1;
+    background: #f2dede url('../img/ajax-loader.gif') no-repeat center;
+}
+
+.bg-edit-contextual-comment {
+    border-color: #faebcc;
+    background: #fcf8e3 url('../img/ajax-loader.gif') no-repeat center;
+}
+.ow-signed-off {
+    margin-bottom: 15px;
+}
+.mce-ow-italics {
+    font-style: italic;
+    width: 50px;
+    white-space: normal !important;
+    overflow-y: scroll !important;
+    height: 80px !important;
+    line-height: 25px !important;
+}
+
+/* OWF Modal Start */
+#ow-contextual-comment-textarea {
+    width: 100%;
+    border: 2px solid #ccc;
+}
+.modal-content{
+    border-radius: 6px;
+}
+
+.ow-footer-button {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.ow-footer-button > li {
+    float: right;
+    text-align: center;
+}
+.ow-modal-footer a {
+    vertical-align: middle;
+}
+.ow-footer-button > li:first-child {
+    width: 100px;
+}
+
+/* To prevent wordpress default tooltip popup to make center instead of left if post title is big */
+.mce-window {
+    top: 20% !important;
+    left: 20% !important;
+    width: 65% !important;
+}
+.mce-textbox.mce-multiline {
+    width: 75% !important;
+}
+.mce-title {
+    width: 89% !important;
+    word-wrap: normal !important;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: normal !important;
+}
+.contextual-comment ul {
+   list-style-type: disc;
+   margin-left: 2em;
+}
+/* CSS End for popup */
+
+.owf-highlight {
+   background-color: #ffff00;
+   cursor: pointer;
+}

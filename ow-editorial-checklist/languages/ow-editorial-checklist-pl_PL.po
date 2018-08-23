@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oasis Workflow Editorial Checklist\n"
+"POT-Creation-Date: 2016-11-24 07:18-0800\n"
+"PO-Revision-Date: 2016-11-24 07:19-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ow-editorial-checklist.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ow-containing-attribute-meta-box.php:45
+msgid "Conditions applied on the containing attribute"
+msgstr "Warunki stosowane na atrybut zawierający"
+
+#: includes/class-ow-containing-attribute-meta-box.php:63
+msgid "Applied to: tags, categories, images, links"
+msgstr "Stosowana do: Tagi, kategorie, zdjęcia, linki"
+
+#: includes/class-ow-containing-attribute-meta-box.php:154
+msgid "Select Post Type"
+msgstr "Wybierz typ wpisu"
+
+#: includes/class-ow-containing-attribute-meta-box.php:165
+msgid "Select"
+msgstr "Wybierz"
+
+#: includes/class-ow-containing-attribute-meta-box.php:173
+#: includes/class-ow-context-attribute-meta-box.php:162
+#: includes/class-ow-pre-publish-meta-box.php:177
+msgid "Required?"
+msgstr "Wymagane?"
+
+#: includes/class-ow-context-attribute-meta-box.php:45
+msgid "Conditions applied on the attribute in context"
+msgstr "Warunki stosowane na atrybut w kontekście"
+
+#: includes/class-ow-context-attribute-meta-box.php:64
+msgid "Applied to: title, content, excerpt"
+msgstr "Stosowana do: tytuł, treść, fragment"
+
+#: includes/class-ow-context-attribute-meta-box.php:144
+msgid "Select Attribute"
+msgstr "Wybierz atrybut"
+
+#: includes/class-ow-context-attribute-meta-box.php:191
+msgid "You are not allowed to create/edit condition groups."
+msgstr "Nie masz uprawnie± do tworzenia/edycji grupy warunków."
+
+#: includes/class-ow-editorial-checklist-license-settings.php:62
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+"Licencji nie można dezaktywować. Klucz licencyjny jest nieprawidłowy lub "
+"serwer licencji nie może być osiągnięty."
+
+#: includes/class-ow-editorial-checklist-license-settings.php:79
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+"Licencja nie może być uaktywniony. Klucz licencyjny jest nieprawidłowy lub "
+"zostanie osiągnięty limit aktywacji."
+
+#: includes/class-ow-editorial-checklist-license-settings.php:99
+msgid "license key"
+msgstr "klucz licencji"
+
+#: includes/class-ow-editorial-checklist-license-settings.php:104
+msgid "Deactivate License"
+msgstr "Deaktywuj licencje"
+
+#: includes/class-ow-editorial-checklist-meta-boxes.php:35
+msgid "contains at least"
+msgstr "zawiera co najmniej"
+
+#: includes/class-ow-editorial-checklist-meta-boxes.php:36
+msgid "contains less than"
+msgstr "zawiera mniej niż"
+
+#: includes/class-ow-editorial-checklist-meta-boxes.php:40
+msgid "words"
+msgstr "słowa"
+
+#: includes/class-ow-editorial-checklist-meta-boxes.php:41
+msgid "letters"
+msgstr "listy"
+
+#: includes/class-ow-editorial-checklist-meta-boxes.php:136
+#, php-format
+msgid "%s updated."
+msgstr "%s zaktualizowano."
+
+#: includes/class-ow-editorial-checklist-meta-boxes.php:137
+#, php-format
+msgid "%s published. You can now use it in Workflow steps."
+msgstr "%s opublikowane. Można teraz użyć go w etapach przepływu pracy."
+
+#: includes/class-ow-editorial-checklist-meta-boxes.php:138
+#, php-format
+msgid "%s saved."
+msgstr "%s zapisano."
+
+#: includes/class-ow-editorial-checklist-service.php:41
+msgid "Condition Group:"
+msgstr "Warunek grupy:"
+
+#: includes/class-ow-editorial-checklist-service.php:91
+msgid "Pre Publish Checklist :"
+msgstr "Wstępnie Publish Lista kontrolna:"
+
+#: includes/class-ow-editorial-checklist-service.php:136
+#: includes/class-ow-editorial-checklist-service.php:172
+msgid "You are not allowed to delete the condition group."
+msgstr "Nie możesz usunąć grupę warunek."
+
+#: includes/class-ow-editorial-checklist-service.php:268
+#: includes/class-ow-editorial-checklist-settings.php:61
+msgid "Checklist"
+msgstr "Checklist"
+
+#: includes/class-ow-editorial-checklist-service.php:328
+msgid "You are not allowed to create/edit workflows."
+msgstr "Nie masz uprawnie± do tworzenia/edycji przepływy pracy."
+
+#: includes/class-ow-editorial-checklist-service.php:395
+msgid "You are not allowed to submit to workflow/sign off from workflow."
+msgstr "Nie wolno składać do pracy/znak z przepływu pracy."
+
+#: includes/class-ow-editorial-checklist-service.php:577
+#, php-format
+msgid "The post should have atleast %d %s but currently has %d %s."
+msgstr "Stanowisko powinno mieć co najmniej %d %s ale ma obecnie: %d %s."
+
+#: includes/class-ow-editorial-checklist-service.php:582
+#, php-format
+msgid "The post should not contain more than %d %s but currently has %d %s."
+msgstr ""
+"Stanowisko nie powinno zawierać więcej niż %d %s ale ma obecnie: %d %s."
+
+#: includes/class-ow-editorial-checklist-service.php:656
+#, php-format
+msgid "%s requires atleast %d word(s) but currently has %d word(s)."
+msgstr "%s wymaga conajmniej %d słowem(z) ale obecnie ma %d wyrazów."
+
+#: includes/class-ow-editorial-checklist-service.php:659
+#, php-format
+msgid "%s requires atleast %d letter(s) but currently has %d letter(s)."
+msgstr "%s wymaga conajmniej %d litera(-y) ale obecnie ma %d litera(-y)."
+
+#: includes/class-ow-editorial-checklist-service.php:667
+#, php-format
+msgid ""
+"%s should not contain more than %d word(s) but currently has %d word(s)."
+msgstr ""
+"%s nie powinien zawierać więcej niż %d słowem(z) ale obecnie ma %d wyrazów."
+
+#: includes/class-ow-editorial-checklist-service.php:670
+#, php-format
+msgid ""
+"%s should not contain more than %d letter(s) but currently has %d letter(s)."
+msgstr ""
+"%s nie powinny zawierać więcej niż %d litera(-y) ale obecnie ma %d litera(-"
+"y)."
+
+#: includes/class-ow-editorial-checklist-service.php:738
+msgid ""
+"You must check all the Pre-Publish Checklist items to complete your task."
+msgstr ""
+"Musisz sprawdzić wszystkie pre-Publish przedmioty Lista kontrolna, aby "
+"zakończyć zadanie."
+
+#: includes/class-ow-editorial-checklist-settings.php:93
+msgid "Prevent Signing off"
+msgstr "Zapobiec podpisanie off"
+
+#: includes/class-ow-editorial-checklist-settings.php:97
+msgid "(Prevent the user from signing off the task.)"
+msgstr "(Zapobiega użytkownik z wylogowaniem zadania.)"
+
+#: includes/class-ow-editorial-checklist-settings.php:106
+msgid "By pass the checklist"
+msgstr "Przez przełęcz Lista kontrolna"
+
+#: includes/class-ow-editorial-checklist-settings.php:110
+msgid "(Let the user sign off without any warnings.)"
+msgstr "(Niech podpisze się bez ostrzeżenia użytkownika)."
+
+#: includes/class-ow-editorial-checklist-settings.php:115
+msgid "Save"
+msgstr "Zapisz"
+
+#: includes/class-ow-pre-publish-meta-box.php:45
+msgid "Conditions applied to the article as a whole"
+msgstr "Warunki stosowane do całego artykułu"
+
+#: includes/class-ow-pre-publish-meta-box.php:64
+msgid "Applied to: various post types."
+msgstr "Stosowana do: po różnych typów"
+
+#: includes/class-ow-pre-publish-meta-box.php:66
+msgid "Example: Do the post images have alt tags?"
+msgstr "Przykład: Czy obrazy pocztowe mają znaczniki alt?"
+
+#: includes/class-ow-pre-publish-meta-box.php:164
+msgid " Write your checklist question here "
+msgstr "Wpisz swoje pytanie tutaj checklist"
+
+#: includes/class-ow-pre-publish-meta-box.php:169
+msgid "Applicable to"
+msgstr "Dotyczy"
+
+#: includes/class-ow-utility.php:84
+msgid "There's something wrong with your code..."
+msgstr "Tam jest coś nie tak z kodem..."
+
+#: includes/class-ow-utility.php:96
+msgid "Post title"
+msgstr "Tytuł postu"
+
+#: includes/class-ow-utility.php:97
+msgid "Post content"
+msgstr "Treść wpisu"
+
+#: includes/class-ow-utility.php:98
+msgid "Post excerpt"
+msgstr "Streszczenie postu"
+
+#: includes/class-ow-utility.php:106
+msgid "tag(s)"
+msgstr "Tag:"
+
+#: includes/class-ow-utility.php:107
+msgid "category(ies)"
+msgstr "Kategoria(-e)"
+
+#: includes/class-ow-utility.php:108
+msgid "image(s)"
+msgstr "obraz≤w"
+
+#: includes/class-ow-utility.php:109
+msgid "featured Image(s)"
+msgstr "Rekomendowane obraz≤w"
+
+#: includes/class-ow-utility.php:110
+msgid "link(s)"
+msgstr "łącza"
+
+#: includes/pages/sub-pages/condition-group-trash.php:2
+msgid "Confirm Condition Group Delete"
+msgstr "Potwierdź usuwanie grupy"
+
+#: includes/pages/sub-pages/condition-group-trash.php:6
+msgid ""
+"This condition group is currently being used in one or multiple workflows. "
+"Deleting the condition group will also delete it’s reference from the "
+"workflow. Do you want to go ahead and delete it?"
+msgstr ""
+"Tej grupy jest używana w jednej lub wielu przepływów pracy. Usuwanie grupy "
+"warunku spowoduje również usunięcie jego odwołanie z przepływu pracy. Czy "
+"chcesz iść do przodu i go usunąć?"
+
+#: includes/pages/sub-pages/condition-group-trash.php:9
+msgid "Delete"
+msgstr "Kasuj"
+
+#: includes/pages/sub-pages/condition-group-trash.php:13
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: includes/pages/sub-pages/pre-publish-checklist.php:18
+msgid "Pre-Publish checklist for : "
+msgstr "Wstępnie Publish Lista kontrolna:"
+
+#: includes/pages/sub-pages/pre-publish-checklist.php:32
+msgid "Close"
+msgstr "Zamknij"
+
+#: ow-editorial-checklist.php:420
+msgid "Welcome to Oasis Workflow Editorial Checklist"
+msgstr "Welcome to Oasis Workflow Editorial Checklist"
+
+#: ow-editorial-checklist.php:423
+#, php-format
+msgid ""
+"To get started with Editorial Checklist, activate the add-on by providing a "
+"valid license key on Workflows %s Settings, License tab."
+msgstr ""
+"Aby rozpocząć pracę z redakcji listy kontrolnej, włączyć dodatek poprzez "
+"dostarczanie pewien zdrowy upoważnić klucz na przepływy pracy %s ustawienia, "
+"zakładka licencji."
+
+#: ow-editorial-checklist.php:424
+msgid "Create condition groups for your editorial checklist."
+msgstr "Tworzenie grupy warunków dla swojej redakcji listy kontrolnej."
+
+#: ow-editorial-checklist.php:425
+msgid "Assign the condition groups to any step(s) in the workflow."
+msgstr "Przypisać grupy warunek jakiekolwiek kroki w przepływie pracy."
+
+#: ow-editorial-checklist.php:611 ow-editorial-checklist.php:612
+msgid "Condition Group"
+msgstr "Warunek grupy"
+
+#: ow-editorial-checklist.php:613
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+#: ow-editorial-checklist.php:614
+msgid "Add New Condition Group"
+msgstr "Dodać nowy warunek grupy"
+
+#: ow-editorial-checklist.php:615
+msgid "Edit Condition Group"
+msgstr "Edytuj warunek grupy"
+
+#: ow-editorial-checklist.php:616
+msgid "New Condition Group"
+msgstr "Nowy stan Grupa"
+
+#: ow-editorial-checklist.php:617
+msgid "View Condition Group"
+msgstr "Widoku stanu grupy"
+
+#: ow-editorial-checklist.php:618
+msgid "Search Condition Group"
+msgstr "Grupa warunków wyszukiwania"
+
+#: ow-editorial-checklist.php:619
+msgid "No Condition Groups found"
+msgstr "Nie znaleziono grupy warunków"
+
+#: ow-editorial-checklist.php:620
+msgid "No Condition Groups found in Trash"
+msgstr "Grupy nie stanie znaleziono w koszu"
+
+#: ow-editorial-checklist.php:649 ow-editorial-checklist.php:650
+msgid "Condition Groups"
+msgstr "Warunki grupy"
+
+#: ow-editorial-checklist.php:665
+msgid "Conditions"
+msgstr "Warunki"
+
+#. Plugin Name of the plugin/theme
+msgid "Oasis Workflow Editorial Checklist"
+msgstr "Oasis Workflow Editorial Checklist"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.oasisworkflow.com"
+msgstr "https://www.oasisworkflow.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Automates content checklist before it moves to the next step in the workflow."
+msgstr ""
+"Automatyzuje treści Lista kontrolna przed przenosi do następnego kroku w "
+"przepływie pracy."
+
+#. Author of the plugin/theme
+msgid "Nugget Solutions Inc."
+msgstr "Nugget Solutions Inc."
+
+#. Author URI of the plugin/theme
+msgid "http://www.nuggetsolutions.com"
+msgstr "http://www.nuggetsolutions.com"
+
+#~ msgid "Cannot delete the condition group since it's used in workflows."
+#~ msgstr ""
+#~ "Nie można usunąć grupy warunek, ponieważ jest on używany w przepływach "
+#~ "pracy."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "Pojawiła się nowa wersja %1$s dostępne. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">Zobacz wersję %3$s szczegóły</a> ."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Pojawiła się nowa wersja %1$s dostępne. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">Zobacz wersję %3$s szczegóły</a> lub <a href="
+#~ "\"%4$s\">aktualizacji teraz</a> ."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Nie masz uprawnień, aby zainstalować aktualizacje wtyczek"
+
+#~ msgid "Error"
+#~ msgstr "Błąd"
+
+#~ msgid "should"
+#~ msgstr "powinien"
+
+#~ msgid "No Condition Group found"
+#~ msgstr "Nie grupy warunek znajduje się"
+
+#~ msgid "No Condition Group found in Trash"
+#~ msgstr "Żadna Grupa warunek Znalezione w kosza"
+
+#~ msgid "Create condition groups for your editorial checklist"
+#~ msgstr "Tworzenie grupy warunków dla redakcji wykaz"

@@ -1,0 +1,366 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oasis Workflow Teams\n"
+"POT-Creation-Date: 2018-01-02 06:58-0800\n"
+"PO-Revision-Date: 2018-01-02 06:58-0800\n"
+"Last-Translator: Oasis Workflow <support@oasisworkflow.com>\n"
+"Language-Team: support@oasisworkflow.com\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-ow-teams-license-settings.php:62
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+"Licencji nie można dezaktywować. Klucz licencyjny jest nieprawidłowy lub "
+"serwer licencji nie może być osiągnięty."
+
+#: includes/class-ow-teams-license-settings.php:79
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+"Licencja nie może być uaktywniony. Klucz licencyjny jest nieprawidłowy lub "
+"zostanie osiągnięty limit aktywacji."
+
+#: includes/class-ow-teams-license-settings.php:99
+msgid "license key"
+msgstr "klucz licencji"
+
+#: includes/class-ow-teams-license-settings.php:104
+msgid "Deactivate License"
+msgstr "Deaktywuj licencje"
+
+#: includes/class-ow-teams-service.php:373
+msgid ""
+"No users found for the given Team and Workflow assignee(s). Please check the "
+"team."
+msgstr ""
+"Żaden z użytkowników nie znaleziono do danego zespołu i pracy assignee(s). "
+"Proszę sprawdzić zespół."
+
+#: includes/class-ow-teams-service.php:385
+msgid "Post Author"
+msgstr "Autor posta"
+
+#: includes/class-ow-teams-service.php:611
+#: includes/class-ow-teams-settings.php:56
+msgid "Teams"
+msgstr "Zespoły"
+
+#: includes/class-ow-teams-service.php:613 ow-teams.php:764
+msgid "Add New Team"
+msgstr "Dodaj nowy Zespół"
+
+#: includes/class-ow-teams-service.php:620
+msgid "All"
+msgstr "Wszystkie"
+
+#: includes/class-ow-teams-service.php:626
+msgid "Has Users"
+msgstr "Użytkowników"
+
+#: includes/class-ow-teams-service.php:632
+#: includes/class-ow-teams-service.php:749
+msgid "No Users"
+msgstr "Żaden z użytkowników"
+
+#: includes/class-ow-teams-service.php:644
+#: includes/class-ow-teams-service.php:662
+#: includes/class-ow-teams-service.php:908
+#: includes/class-ow-teams-service.php:941
+#: includes/class-ow-teams-service.php:1081
+#: includes/class-ow-teams-service.php:1113
+msgid "Select All"
+msgstr "Wybierz wszystko"
+
+#: includes/class-ow-teams-service.php:648
+#: includes/class-ow-teams-service.php:666
+msgid "Team Name"
+msgstr "Nazwa zespołu"
+
+#: includes/class-ow-teams-service.php:651
+#: includes/class-ow-teams-service.php:669
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: includes/class-ow-teams-service.php:654
+#: includes/class-ow-teams-service.php:672
+msgid "Associated Workflows"
+msgstr "Powiązane przepływy pracy"
+
+#: includes/class-ow-teams-service.php:694
+msgid "Select"
+msgstr "Wybierz"
+
+#: includes/class-ow-teams-service.php:722
+msgid "View"
+msgstr "Widok"
+
+#: includes/class-ow-teams-service.php:729
+msgid "Edit"
+msgstr "Edytuj"
+
+#: includes/class-ow-teams-service.php:738
+#: includes/class-ow-teams-service.php:796
+#: includes/class-ow-teams-service.php:1029
+#: includes/class-ow-teams-service.php:1226
+msgid "Delete"
+msgstr "Kasuj"
+
+#: includes/class-ow-teams-service.php:764
+#: includes/class-ow-teams-service.php:1058
+#: includes/class-ow-teams-service.php:1147
+#: includes/class-ow-teams-service.php:1455
+msgid "All Workflows"
+msgstr "Wszystkie przepływy pracy"
+
+#: includes/class-ow-teams-service.php:771
+#: includes/class-ow-teams-service.php:1073
+#: includes/class-ow-teams-service.php:1396
+msgid "Associated Workflow(s)"
+msgstr "Powiązane przepływy pracy"
+
+#: includes/class-ow-teams-service.php:774
+msgid "No Associated Workflow(s)"
+msgstr "Brak powiązane przepływy pracy"
+
+#: includes/class-ow-teams-service.php:785
+msgid "No teams found."
+msgstr "Nie znaleziono zespołów."
+
+#: includes/class-ow-teams-service.php:794
+#: includes/class-ow-teams-service.php:1028
+#: includes/class-ow-teams-service.php:1223
+msgid "Bulk Actions"
+msgstr "Działania masowe"
+
+#: includes/class-ow-teams-service.php:826
+msgid "Edit Workflow Team"
+msgstr "Edytuj przepływ pracy zespołu"
+
+#: includes/class-ow-teams-service.php:826
+msgid "New Workflow Team"
+msgstr "Nowych pracy zespołu"
+
+#: includes/class-ow-teams-service.php:833
+#: includes/class-ow-teams-service.php:919
+#: includes/class-ow-teams-service.php:952
+#: includes/class-ow-teams-service.php:1312
+#: includes/class-ow-teams-service.php:1337
+msgid "Name"
+msgstr "Imię"
+
+#: includes/class-ow-teams-service.php:842
+msgid "Assign a name for the team to recognize it."
+msgstr "Przypisz nazwę dla zespołu, aby rozpoznać."
+
+#: includes/class-ow-teams-service.php:848
+msgid "Description"
+msgstr "Opis"
+
+#: includes/class-ow-teams-service.php:855
+msgid "Add description about the team."
+msgstr "Dodaj opis zespołu."
+
+#: includes/class-ow-teams-service.php:861
+msgid "Add Member(s) to the Team"
+msgstr "Dodaj członka (członkowie) do zespołu"
+
+#: includes/class-ow-teams-service.php:880
+msgid "Select users to add them to the team."
+msgstr "Wybierz użytkowników, aby dodać je do zespołu."
+
+#: includes/class-ow-teams-service.php:884
+#: includes/class-ow-teams-service.php:1285
+msgid "Existing Team Member(s)"
+msgstr "Istniejącego członka zespołu (s)"
+
+#: includes/class-ow-teams-service.php:914
+#: includes/class-ow-teams-service.php:947
+#: includes/class-ow-teams-service.php:1307
+#: includes/class-ow-teams-service.php:1332
+msgid "User Name"
+msgstr "Nazwa użytkownika"
+
+#: includes/class-ow-teams-service.php:924
+#: includes/class-ow-teams-service.php:956
+#: includes/class-ow-teams-service.php:1317
+#: includes/class-ow-teams-service.php:1341
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/class-ow-teams-service.php:929
+#: includes/class-ow-teams-service.php:961
+#: includes/class-ow-teams-service.php:1322
+#: includes/class-ow-teams-service.php:1346
+msgid "Role"
+msgstr "Kategorie"
+
+#: includes/class-ow-teams-service.php:1013
+#: includes/class-ow-teams-service.php:1385
+msgid "No team members found."
+msgstr "Nie znaleziono członków zespołu."
+
+#: includes/class-ow-teams-service.php:1048
+msgid "Assign Workflow(s) to the Team"
+msgstr "Przypisz przepływy pracy do zespołu"
+
+#: includes/class-ow-teams-service.php:1070
+msgid "Select Workflows to associate with team."
+msgstr "Wybierz przepływy pracy aby skojarzyć z zespołem."
+
+#: includes/class-ow-teams-service.php:1087
+#: includes/class-ow-teams-service.php:1119
+#: includes/class-ow-teams-service.php:1403
+#: includes/class-ow-teams-service.php:1427
+msgid "Workflow Name"
+msgstr "Nazwa przepływu pracy"
+
+#: includes/class-ow-teams-service.php:1092
+#: includes/class-ow-teams-service.php:1124
+#: includes/class-ow-teams-service.php:1408
+#: includes/class-ow-teams-service.php:1432
+msgid "Version"
+msgstr "Wersja"
+
+#: includes/class-ow-teams-service.php:1097
+#: includes/class-ow-teams-service.php:1129
+#: includes/class-ow-teams-service.php:1413
+#: includes/class-ow-teams-service.php:1437
+msgid "Start Date"
+msgstr "Data startu"
+
+#: includes/class-ow-teams-service.php:1102
+#: includes/class-ow-teams-service.php:1134
+#: includes/class-ow-teams-service.php:1418
+#: includes/class-ow-teams-service.php:1442
+msgid "End Date"
+msgstr "DAta zakończenia"
+
+#: includes/class-ow-teams-service.php:1209
+#: includes/class-ow-teams-service.php:1513
+msgid "No associated workflow found."
+msgstr "Nie znaleziono powiązanego przepływu pracy."
+
+#: includes/class-ow-teams-service.php:1589
+msgid "--Select a Team--"
+msgstr "--Wybierz zespół--"
+
+#: includes/class-ow-teams-service.php:1673
+msgid ""
+"Team doesn't have sufficient members to satisfy all the roles in the "
+"workflow. "
+msgstr ""
+"Zespół nie ma członków wystarczające do zaspokojenia wszystkich ról w "
+"przepływie pracy."
+
+#: includes/class-ow-teams-service.php:1674
+msgid "Please add member(s) with the following roles: "
+msgstr "Proszę dodać element(y) członkowski(e) z następujących ról:"
+
+#: includes/class-ow-teams-service.php:1776
+msgid "Assigned Team"
+msgstr "Przydzielona drużyna"
+
+#: includes/class-ow-teams-service.php:1798
+msgid "None"
+msgstr "Brak"
+
+#: includes/class-ow-teams-service.php:1835
+msgid "Assign to Team :"
+msgstr "Przypisz do Zespołu :"
+
+#: includes/class-ow-teams-settings.php:91
+msgid "Enable Workflow Teams ?"
+msgstr "Umożliwiają przepływ pracy zespołów?"
+
+#: includes/class-ow-teams-settings.php:93
+msgid ""
+"(The checkbox will be available, if the Oasis Workflow Teams license is "
+"valid)"
+msgstr "(Pole będzie dostępna, jeśli licencja Oasis pracy zespołów)"
+
+#: includes/class-ow-teams-settings.php:99
+msgid "Save"
+msgstr "Zapisz"
+
+#: includes/class-ow-utility.php:85
+msgid "There's something wrong with your code..."
+msgstr "Tam jest coś nie tak z kodem..."
+
+#: ow-teams.php:203
+msgid "Welcome to Oasis Workflow Teams"
+msgstr "Witamy w Oasis Workflow Teams"
+
+#: ow-teams.php:206
+#, php-format
+msgid ""
+"1. Activate the add-on by providing a valid license key on Workflows %s "
+"Settings, License tab."
+msgstr ""
+"1. aktywować dodatek zapewniając zdrowy upoważnić klucz na przepływy pracy "
+"%s ustawienia, kartę licencyjną."
+
+#: ow-teams.php:207
+msgid "2. Create teams and start using teams in workflows."
+msgstr ""
+"2. Tworzenie zespołów i rozpocząć korzystanie z zespołów w przepływach pracy."
+
+#: ow-teams.php:760
+msgid "All Teams"
+msgstr "Wszystkie Zespoły"
+
+#: ow-teams.php:768
+msgid "Edit Team"
+msgstr "edytuj zespół"
+
+#: ow-teams.php:771
+msgid "View Team"
+msgstr "Zobacz zespół"
+
+#: ow-teams.php:792
+msgid ""
+"The team cannot be deleted, since it's currently being used in a workflow."
+msgstr "Zespół nie można usunąć, ponieważ jest on obecnie używany w pracy."
+
+#~ msgid "Team for Auto Submit:"
+#~ msgstr "Grupa dla Automatycznej Wysyłki:"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "Pojawiła się nowa wersja %1$s dostępne. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">Zobacz wersję %3$s szczegóły</a> ."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Pojawiła się nowa wersja %1$s dostępne. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">Zobacz wersję %3$s szczegóły</a> lub <a href="
+#~ "\"%4$s\">aktualizacji teraz</a> ."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Nie masz uprawnień, aby zainstalować aktualizacje wtyczek"
+
+#~ msgid "Error"
+#~ msgstr "Błąd"
+
+#~ msgid "Settings saved successfully."
+#~ msgstr "Ustawienia poczty e-mail zapisane pomyślnie."
+
+#~ msgid "Workflow Teams Settings"
+#~ msgstr "Pracy zespołów ustawienia"

@@ -1,0 +1,1564 @@
+.loading{
+   background-image: url( "../../img/ajax-loader.gif");
+   background-position: 50% 80%;
+   background-repeat: no-repeat;
+   width:10px;
+}
+.inline-loading {
+   height: 23px;
+   position: absolute;
+   width: 24px;
+}
+.workflow-history .no-found-td {
+   padding:20px;
+}
+.workflow-history .no-found-td label {
+   font-weight:bold;
+   height:30px;
+}
+
+div#workflow-edit-icon {
+   background-image:url(../../img/edit-icon-32.png);
+   background-repeat: no-repeat
+}
+
+#draggable {
+   width: 100px;
+   height: 100px;
+   padding: 0.5em;
+   float: left;
+   margin: 10px 10px 10px 0;
+   background-color: yellow;
+}
+
+#droppable {
+   width: 150px;
+   height: 150px;
+   padding: 0.5em;
+   float: left;
+   margin: 10px;
+   background-color: green;
+}
+
+#draggable, #draggable2 {
+   float: left;
+   height: 100px;
+   margin: 10px 10px 10px 0;
+   padding: 0.5em;
+   width: 100px;
+   background-color: yellow;
+}
+#workflow-area{
+   height:450px;
+   width:70%;
+   float:left;
+}
+#workflow-info-area{
+   width:25%;
+   float:right;
+   margin:10px;
+}
+.workflow-save {
+   float:right;
+}
+
+.fc_action {
+   border:1px solid #d7d5d5;
+   -moz-border-radius:0.5em;
+   border-radius:0.5em;
+   background-color:#fbfbfb;
+}
+.workflow-define-div {
+   margin:0 0 10px 10px;
+}
+#workflow-define-div table {
+   width:100%;
+}
+#workflow-define-div table label {
+   margin-left:5px;
+   font-weight:bold;
+}
+#workflow-define-div table textarea {
+   height:205px;
+   width:100%;
+   line-height: 20px;
+}
+#wfsortable, .wfeditable {
+   padding:0px 10px 0px 10px
+}
+#wfsortable li, .wfeditable li {
+   -moz-border-radius: 0.5em;
+   border-radius: 0.5em;
+   margin-bottom:10px;
+   cursor:move;
+}
+.widget-wf-process {
+   padding:6px;
+   background-image: url("../../img/process-button-bg.png");
+   text-align: center;
+   background-repeat: repeat;
+   border-color: #DFDFDF;
+   border-radius: 4px;
+   border-style: solid;
+   border-width: 1px;
+   cursor: pointer;
+}
+.sortable img {
+   margin-top:30px !important;
+}
+.fc_action {
+   padding-bottom:-15px;
+}
+.fc_action fieldset img {
+   float:left;
+}
+.postbox-container {
+   width:100%;
+}
+#workflow-show-bt {
+   margin-left:15px;
+}
+
+.wf_graphic_show_link {
+   float:right;
+   margin-right:30px;
+   color:black;
+   text-decoration:none;
+}
+.wf_graphic_show_link div {
+   display:inline;
+   background:transparent url(../../img/arrows-dark.png) no-repeat 0 0px;
+}
+#delete-form {
+   float:right;
+   margin-right:150px;
+}
+.changed-data-set input {
+   float: right;
+}
+#new-wf-save {
+   margin-right:10px;
+}
+#new-wf-cancel, #copy-wf-cancel {
+   float:right;
+   margin:5px 25px 0 0;
+}
+.changed-data-set span {
+   float:right;
+   width:25px;
+   margin-top:3px;
+}
+.save_loading {
+   float:right;
+   margin-top:3px;
+   width:20px;
+}
+#list {
+   border-bottom:1px dotted grey;
+   padding-bottom:1.5em; font-size:90%;
+}
+#list table {
+   width:100%;
+   text-align:left;
+}
+#connection-setting,
+#new-workflow-create-popup,
+#copy-workflow-popup {
+   background-color:white;
+   color:black;
+   border:0.25em solid #ddd;
+   padding:1em;
+   -moz-border-radius:1em;
+   border-radius:1em;
+   box-shadow: 2px 2px 19px #aaa;
+   -o-box-shadow: 2px 2px 19px #aaa;
+   -webkit-box-shadow: 2px 2px 19px #aaa;
+   -moz-box-shadow: 2px 2px 19px #aaa;
+   display:none;
+}
+#connection-setting{
+   font-size:14px;
+   width: 500px;
+}
+#connection-setting table tr:first-child th {
+    font-size: 13px;
+    width: 35%;
+}
+#connection-setting table.relation tr td:nth-child(2) {
+    width: 13%;
+}
+#connection-setting table.relation tr td:nth-child(4) {
+    padding-left: 5px;
+}
+#connection-setting table {
+    width: 100%;
+    text-align: left;
+}
+#connection-setting select#step-status-select {
+    width: 90%;
+    margin-top: -5px;
+}
+.connection-path {
+    margin-bottom: 15px;
+}
+
+.connection-info{
+   display: inline;
+   z-index: 2;
+   background: rgba(0,0,0,.8);
+   border-radius: 5px;
+   color: #fff;
+   text-align: center;
+   padding: 5px 0 5px 0;
+   position: absolute;
+   width: 180px;
+   font-size: 12px;
+   font-weight: normal;
+   line-height: 18px;
+}
+
+#new-workflow-create-popup,
+#copy-workflow-popup{
+   font-size:13px;
+}
+
+.div-line {
+   border-bottom:1px dotted grey;
+   font-size:90%;
+   text-align:center;
+}
+
+.div-line{
+   padding:5px;
+   margin-bottom:10px;
+   width:95%;
+}
+
+.connection-status {
+   border-bottom:1px dotted grey;
+   padding:5px;
+}
+#wfsortable div {
+   font-size:13px;
+}
+.wfmessage{
+   padding:0 10px 0 10px
+}
+.wfmessage p, .wfmessage p a {
+   font-size:13px;
+}
+.w {
+   padding:1.3em 1em 1.3em 1em;
+   position:absolute;
+   border: 1px solid black;
+   z-index:4;
+   border-radius:1em;
+   border:1px solid #346789;
+   box-shadow: 2px 2px 19px #e0e0e0;
+   -o-box-shadow: 2px 2px 19px #e0e0e0;
+   -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+   -moz-box-shadow: 2px 2px 19px #e0e0e0;
+   -moz-border-radius:0.5em;
+   border-radius:0.5em;
+
+   opacity:0.8;
+   filter:alpha(opacity=80);
+   cursor:move;
+}
+.w img{
+   float:left;
+}
+.w label{
+   float:left;
+   margin:-2px 5px 0 2px;
+}
+.aLabel {
+   background-color:white;
+   opacity:0.8;
+   padding:0.3em;
+}
+
+.ep {
+   float:right;
+   width:1em;
+   height:1em;
+   background-color:#994466;
+   cursor:pointer;
+}
+
+.ep-help {
+   width:18px;
+   vertical-align:middle;
+   float:right;
+   position: relative;
+   left: 30px;
+   top: -25px;
+}
+._jsPlumb_endpoint {
+   z-index:3;
+   opacity:0;
+}
+
+.dragHover {
+   border:1px dotted red;
+}
+
+path {
+   cursor:pointer;
+}
+.date-clear{
+   padding:1px;
+}
+.labelcomponent{
+   border:1px solid #346789;
+   widht:20px;
+   height:15px;
+   padding:1px;
+   -moz-border-radius:1em;
+   border-radius:1em;
+   z-index:10;
+   background-color:white;
+}
+
+#process-info-div{
+   width:100%;
+}
+
+.workflow-save-button, .workflow-copy-button {
+   float:right;
+   margin:0 15px 5px 10px !important;
+   width:50px;
+}
+
+.workflow-save-new-version-button {
+   float:right;
+   margin:0 15px 5px 10px !important;
+}
+
+.process-lbl{
+   font-weight:bold;
+   font-size:15px;
+}
+.wfmessage p{
+   line-height:30px;
+}
+.workflow-lbl{
+   font-weight:bold;
+   font-size:15px;
+}
+.define-workflow-textarea{
+   height:100px !important;
+}
+#start-date, #end-date{
+   background-color:white;
+}
+.save-action-div{
+   margin-top:15px;
+}
+.ow-error-message{
+   border:1px solid red !important;
+}
+.first_step{
+   margin-top:-10px;
+}
+.first_step span{
+   float:left;
+   margin-top:4px;
+}
+.first_step span input{
+   cursor:pointer;
+   margin:1px;
+}
+
+#workflow-inbox .loading{
+   display:none;
+}
+#workflow-inbox .hurry-td{
+   padding:20px;
+}
+#workflow-inbox .hurray-lbl{
+   font-weight:bold;
+   height:30px;
+}
+#reassign-div{
+   display:none;
+}
+.no-found-lbl{
+   padding:20px;
+}
+
+.ow-info-message {
+   border:1px solid #b0b4fa;
+   background-color:#dcddfa;
+   width:97%;
+   margin:20px 0 20px 0;
+   -moz-border-radius:0.5em;
+   border-radius:0.5em;
+   padding:10px;
+}
+.error-message {
+   background-color:#FAEBD7;
+   border:1px solid #CCCCCC;
+   width:97%;
+   margin:20px 0 20px 0;
+   -moz-border-radius:0.5em;
+   border-radius:0.5em;
+   padding:10px;
+}
+.error-message-background {
+   background-color: lightgray !important;
+}
+
+#settingstuff {
+   float: left;
+}
+#setting_form{
+   font-size:13px;
+}
+#workflow-setting {
+   margin-top:10px;
+}
+#div_reminder_day{margin-top: 20px; opacity:0.5;}
+.reminder_days{
+   text-align:center;
+}
+
+.owf-sidebar {
+   float: right;
+}
+#owf_settings_button_bar {
+   margin-top: 10px;
+}
+a.owf_about_link {
+   padding:4px;
+   display:block;
+   padding-left:25px;
+   background-repeat:no-repeat;
+   background-position:5px 50%;
+   text-decoration:none;
+   border:none;
+}
+
+a.owf_about_link:hover {
+   border-bottom-width:1px;
+}
+
+.owf_fieldset {
+   padding: 1em;
+   font: 100%;
+   border: 1px solid;
+   border-radius: 10px;
+   margin-top : 20px;
+   width:110%;
+}
+
+.owf_fieldset legend {
+   font-weight:bold;
+   margin-right:0.5em;
+   padding-top:0.2em;
+   text-align:center;
+}
+
+#new-workflow-submit-div{
+   display:none;
+}
+#new-step-submit-div{
+   display:none;
+}
+.info-setting{
+   background-color:white;
+   color:black;
+   border:0.25em solid #ddd;
+   font-size:13px;
+   padding:1em;
+   -moz-border-radius:1em;
+   border-radius:1em;
+   box-shadow: 2px 2px 19px #aaa;
+   -o-box-shadow: 2px 2px 19px #aaa;
+   -webkit-box-shadow: 2px 2px 19px #aaa;
+   -moz-box-shadow: 2px 2px 19px #aaa;
+   width:600px;
+}
+.make-revision-info {
+   width: 400px;
+}
+.ow-btn-group {
+   outline: 0;
+   width: 100%;
+   height: 20px;
+   text-align: right;
+}
+.btn-spacer {
+   width:5px;
+   height:auto;
+   display:inline-block;
+}
+
+.info-setting label{
+   float:left;
+   width:110px;
+   margin-top:5px;
+}
+.select-part, .owf-text-info {
+   margin-top:20px;
+}
+
+.extra-wide {
+   width:620px !important;
+}
+
+.select-info {
+   margin-top:20px;
+}
+.sub-select-info {
+   margin-left: 50px;
+}
+.owf-text-info .step_due_days {
+   width: 35px;
+}
+.owf-text-info input{
+   width:150px;
+}
+.owf-text-info input[type="checkbox"] {
+   width:15px;
+}
+.dialog-title{
+   border-bottom:1px dotted grey;
+   padding-top:0.5em;
+   padding-bottom:1.5em;
+   font-size:90%;
+   text-align:center;
+   font-size:13px;
+}
+
+#submitSave, #deleteHistoryConfirm{
+   margin-right:10px;
+}
+#submitCancel, #deleteHistoryCancel{
+   float:right;
+   margin:5px 20px 0 0;
+}
+.changed-data-set span{
+   float:right;
+   width:25px;
+   margin-top:3px;
+}
+#step-loading-span, .assign-loading-span, .publish-date-loading-span{
+   padding-left:20px;
+}
+
+.select-actors-div{
+   height:120px;
+}
+.select-actors-div div{
+   float:left;
+}
+.select-actors-list{
+   text-align:center;
+}
+.select-actors-list label{
+   width:90%;
+}
+
+.select-actors-list p select{
+   width:170px;
+   border:1px solid #dadada;
+   overflow: auto;
+   height:100px;
+   cursor:pointer;
+}
+
+.select-actors-div-point{
+   margin:55px 10px 0 10px;
+}
+.assign-loading-span{
+   margin-top:-18px;
+}
+#one-actors-div{
+   display:none;
+}
+
+#cancelSave, #completeSave {
+   display:none;
+}
+
+#due-date{
+   background-color:white;
+}
+
+#message_div{
+   width:96%;
+   margin-top:10px;
+   padding:10px;
+   -moz-border-radius:0.5em;
+   border-radius:0.5em;
+   display:none;
+}
+
+#immediately-div{
+   display:none ;
+   padding:0px;
+}
+
+.comment-part{
+   margin-top:20px;
+}
+
+.comment-part label{
+   width: 50%;
+}
+.comment-split-line{
+   border-bottom:1px solid black;
+   font-size:90%;
+}
+#signoffDate {
+   float: right !important;
+   width: 50% !important;
+}
+
+#commentCancel{
+   float:right;
+   margin:5px 25px 0 0;
+}
+
+.reassign-set,
+.abort-set{
+   margin:30px 0 20px 0;
+   width:100%;
+}
+
+.reassign-set span,
+.abort-set span {
+   margin-top:5px;
+}
+
+.reassign-set span,
+.abort-set span {
+   float:right;
+   margin-right:5px;
+   width:15px;
+}
+
+#reassignCancel, 
+#abortCancel {
+   margin:5px 10px 0 0px;
+   float:right;
+   color:blue;
+}
+#reassignSave,
+#abortSave {
+   float:right;
+   width:70px;
+}
+
+#controls {
+   margin-left:20px;
+}
+
+#step-setting{
+   background-color:white;
+   color:black;
+   border:0.25em solid #ddd;
+   font-size:13px;
+   padding:1em;
+   -moz-border-radius:1em;
+   border-radius:1em;
+   box-shadow: 2px 2px 19px #aaa;
+   -o-box-shadow: 2px 2px 19px #aaa;
+   -webkit-box-shadow: 2px 2px 19px #aaa;
+   -moz-box-shadow: 2px 2px 19px #aaa;
+}
+
+#step-setting label{
+   float:left;
+   width:130px;
+   margin-top:4px;
+}
+
+#step-name, #assignment-email-subject, #reminder-email-subject{
+   border:1px solid #dadada;
+   -moz-border-radius:0.2em;
+   border-radius:0.2em;
+}
+
+.step-name input{
+   width:350px;
+}
+.step-assignee{
+   margin-top:25px;
+}
+.step-assignee div{
+   float:left;
+}
+.step-assignee-list{
+   text-align:center;
+}
+.step-assignee-list p select{
+   width:180px;
+   border:1px solid #dadada;
+   overflow: auto;
+   height:100px;
+   cursor:pointer;
+   margin-top:-10px;
+}
+
+.step-assignee-point{
+   margin:40px 10px 0 10px;
+}
+
+.step-review-lb {
+   margin-left:0px;
+   float:left;
+}
+.step-review{
+   margin-top:25px;
+}
+.step-review-chk{
+   width:350px;
+   float:left;
+}
+.step-review-chk div{
+   margin-top:10px;
+}
+
+
+#more-show{
+   background:transparent url(../../img/arrows-dark.png) no-repeat 105px 0px;
+   margin:30px;
+   float:right;
+   width:120px;
+   color:blue;
+}
+
+#assignment-email-subject, #reminder-email-subject{
+   width:500px;
+}
+
+#CONTAINERassignment-email-content, #CONTAINERreminder-email-content{
+   border:1px solid #e0dede;
+}
+
+#CONTROLSassignment-email-content, #CONTROLSreminder-email-content{
+   border:0px;
+}
+
+
+#stepCancel{
+   margin:0 10px 0px 30px;
+   float:right;
+   color:blue;
+}
+#stepSave{
+   margin-left: 10px;
+   float:right;
+   width:70px;
+}
+
+.step-set{
+   margin:0px 30px 0 0;
+}
+
+.step-set span{
+   float:right;
+   margin-right:5px;
+   width:15px;
+}
+
+#step-setting a{
+   color:blue;
+   cursor:pointer;
+}
+
+.owf-hidden {
+   display: none;
+}
+
+.history-comment,
+.history-condition {
+   width: 72px;
+   text-align: left;
+}
+.history-header {
+   width: 70px;
+}
+.history-title, 
+.report-header {
+   width: 160px;
+}
+.comments, 
+.pre-publish-checklist {
+   text-align: center !important;
+}
+
+.left {
+   float: left;
+}
+
+.right {
+   float: right;
+}
+
+.button-spacing {
+   margin-left: 10px;
+   padding-left: 5px;
+}
+
+.button-link-spacing {
+   margin-left: 10px;
+   padding-left: 5px;
+   padding-top: 5px;
+}
+
+.paste_loading{
+   position: absolute;
+   width:20px;
+   display:none;
+}
+
+.abort-workflow-section, .update-published-article {
+   margin-top: 15px;
+   width: 100%;
+}
+
+.settings-title {
+   font-size: 14px;
+   font-weight: bold;
+}
+.settings-title-normal {
+   font-size: 13px;
+   font-weight: normal;
+}
+.list-section-heading {
+   padding-bottom: 5px;
+   font-size: 14px;
+   font-weight: bold;
+}
+.list-section {
+   height: 100px;
+   width: 300px;
+   padding: 5px;
+   overflow: auto;
+   border: 1px solid #ccc;
+}
+.multi-select-box
+{
+   background: none repeat scroll 0 0 #FFFFFF;
+   border: 1px solid #CCCCCC;
+   padding: 15px;
+   width: 35%;
+}
+.email_notification_body
+{
+   padding: 12px;
+   margin: 12px;
+   font-family: calibri;
+   font-size: 17px;
+}
+.wf-time
+{
+   width:46px !important;
+}
+.select-teams-div
+{
+   height: 30px;
+}
+
+.aligncenter {
+   text-align: center;
+}
+
+.revision {
+   margin-right: 5px !important;
+}
+
+.margin-override {
+   margin-top : 2px !important;
+   margin-bottom : 2px !important;
+}
+
+.revision-wrap .diff td{
+   padding:0 0.667em;
+   vertical-align:top;
+   white-space:pre;
+   white-space:pre-wrap;
+   font-size:14px;
+   line-height:1.333;
+}
+
+.revision-wrap .diff span{
+   display:block;
+   min-height:1.333em;
+   margin-top:-1px;
+   padding:0 3px;
+}
+
+* html .revision-wrap .diff span{
+   height:1.333em;
+}
+
+.revision-wrap .diff span:first-child{
+   margin-top:0;
+}
+
+.revision-wrap .diffDeleted span{
+   border: 1px solid rgb(192,255,192);
+   background: rgb(224,255,224);
+}
+
+.revision-wrap .diffInserted span{
+   border:1px solid rgb(255,192,192);
+   background:rgb(255,224,224);
+
+}
+
+.revision-wrap #toStringOutput{
+   margin:0 2em 2em;
+}
+.revision-wrap table.diff tbody tr td:nth-child(2) {
+   width: 50% !important;
+}
+
+.revision-wrap {
+   background-color: #fff;
+   margin-top: 20px;
+}
+
+.revision-message {
+   color: red;
+}
+
+.revision-middle-box {
+   background-color: rgb(220, 221, 250);
+   border: 1px solid rgb(176, 180, 250);
+   display: none;
+   border-radius: 0.5em;
+   margin-top: 10px;
+   padding: 10px;
+   width: 96%;
+}
+
+.owf-checkbox {
+   margin: 2px 5px 2px 0 !important;
+}
+
+.owf-category li{
+   list-style-type: none;
+   margin-left: 10px;
+}
+
+.owf-category ul{
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+.space {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.blank-space {
+   padding: 0 10px;
+   margin : 0 10px;
+}
+
+.bold-label {
+   font-weight:bold;
+}
+
+.workflow-comments {
+   height:100px;
+   width:400px;
+   margin-top:10px;
+}
+
+.full-width {
+   width:100%;
+}
+
+.half-width {
+   width:50% !important;
+}
+
+.quarter-width {
+   width:25% !important;
+}
+
+.three-fourth-width {
+   width:75% !important;
+}
+
+.select-actors-div select[multiple] {
+   height: 100px;
+}
+
+.email-message-area {
+   width: 100%;
+   height: 250px;
+}
+
+.place-holder {
+   float: left;
+   width: 130px;
+}
+
+.field-width-200 {
+   width:200px;
+}
+
+.tooltip{
+   display: inline;
+   position: relative;
+}
+
+.tooltip:hover:after{
+   background: #333;
+   background: rgba(0,0,0,.8);
+   border-radius: 5px;
+   bottom: 26px;
+   color: #fff;
+   content: attr(title);
+   /*    left: 20%;*/
+   margin-left: -50px;
+   padding: 5px 15px;
+   position: absolute;
+   z-index: 98;
+   width: 180px;
+   font-size: 12px;
+   font-weight: normal;
+   line-height: 18px;
+}
+
+
+.tooltip:hover:before{
+   border: solid;
+   border-color: #333 transparent;
+   border-width: 6px 6px 0 6px;
+   bottom: 20px;
+   content: "";
+   /*    left: 50%;*/
+   margin-left: 3px;
+   position: absolute;
+   z-index: 99;
+}
+
+.help-icon {
+   width:18px;
+   vertical-align:middle;
+}
+
+.one-third {
+   width: 25%;
+   float: left;
+}
+
+.two-third {
+   width: 75%;
+   float: left;
+}
+
+.full-width {
+   float: left;
+   width: 100%;
+   margin-top:15px;
+}
+
+.field-width-medium {
+   width: 350px;
+}
+
+.field-height-medium {
+   height:100px;
+}
+
+.medium-wide-window {
+   width: 500px;
+}
+span.description,
+select#auto_submit_interval {
+   font-weight: normal;
+}
+span.email-digest {
+   margin-left:28px;
+}
+.required-color {
+   color: red;
+}
+
+.workflow-title {
+   width:350px;
+}
+
+.workflow-description {
+   height:100px;
+   width:350px;
+}
+
+tr.space-under > td {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100px;
+}
+
+.ow-date-picker {
+   background-color: white;
+}
+label.full-width {
+   margin: 0;
+}
+.ow-option-group
+{
+   font-weight:bold;
+   font-style:italic;
+}
+
+.ow-option-child
+{
+   padding-left:15px;
+}
+
+#workflow-design-area {
+   font-size: 18px;
+   font-weight: normal;
+   color: #C0C0C0;
+   margin: 5px;
+   float: left;
+}
+.past-due-date-field {
+   color: #ff0000;
+}
+table.wp-list-table {
+   border-collapse: collapse;
+}
+.past-due-date-row {
+   background-color: #ffe5e5;
+   border-bottom: 0px solid #bfbfbf;
+}
+.owf-clearfix {
+   clear: both;
+}
+.owf-comment-textarea {
+   clear: both;
+   float: none;
+   margin-top: 0;
+}
+.owf-comment-textarea > div:first-child {
+   margin-bottom: 15px;
+}
+.btn-submit-step-group {
+   float: none;
+   clear: both;
+   height: 20px;
+   margin-top: 0;
+}
+.immediately {
+   width: 38px !important;
+}
+.margin {
+   margin-left: 8px;
+}
+.im-year {
+   width: 60px !important;
+}
+/*New comment popup*/
+.ow-overlay {
+   display: none;
+   position: fixed;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   z-index:1001;
+   -moz-opacity: 0.8;
+   opacity:.80;
+   filter: alpha(opacity=80);
+}
+.ow-modal-close {
+   background: url(../../img/close.png) no-repeat;
+   width: 25px;
+   height: 29px;
+   display: inline;
+   position: absolute;
+   top: -16px;
+   right: -14px;
+   cursor: pointer;
+   z-index: 1003 !important;
+}
+#ow-editorial-readonly-comment-popup > #ow-comment-popup > .ow-modal-footer,
+#ow-editorial-readonly-checklist-popup > #ow-checklist-popup > .ow-modal-footer{
+   background: #F5F5F5;
+}
+.ow-modal-dialog {
+   display: none;
+   position: fixed;
+   top: 25%;
+   left: 25%;
+   width: 50%;
+   background-color: #F5F5F5;
+   z-index: 1002;
+   border-radius: 6px;
+}
+.ow-top_15 {
+   top: 15%;
+}
+.ow-modal-header {
+   min-height: 16.43px;
+   padding: 15px;
+}
+.ow-modal-title {
+   margin: 0;
+   min-width: 450px !important;
+}
+.ow-modal-body {
+   position: relative;
+   padding: 15px;
+}
+.ow-textarea {
+   background-color: #fff;
+}
+#ow-scrollbar {
+   min-height: 50px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+#ow-scrollbar:hover {
+   overflow-y: scroll;
+}
+.ow-widget-scrollbar {
+   max-height: 400px;
+}
+#ow-scrollbar::-webkit-scrollbar {
+   width: 6px;
+}
+
+#ow-scrollbar::-webkit-scrollbar-thumb {
+   background-color: #C8C8C8;
+   border-radius: 10px;
+}
+.ow-comment-popup-scrollbar,
+ow-checklist-popup-scrollbar {
+   max-height: 400px;
+}
+ul#readonly-comments {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#readonly-comments > li {
+   float: left;
+   padding: 15px;
+   width:74%;
+}
+#readonly-comments > li:nth-child(odd) {
+   width: 15%;
+}
+#readonly-comments > li:nth-child(even) {
+   clear: right;
+   margin-bottom: 12px;
+   min-height: 145px;
+}
+
+#readonly-comments > li > p.author-name,
+#readonly-comments > li > p.author-role {
+   margin: 0;
+   font-size: 13px;
+}
+.clearfix {
+   clear:both;
+}
+.ow-modal-footer {
+   padding: 15px;
+   text-align: right;
+   border-top: 1px solid #e5e5e5;
+}
+p.ow-sign-off-text {
+   color: #444;
+   margin: 5px !important;
+}
+p.ow-signed-off-comment {
+   font-size: 13px;
+   color: #444;
+   font-weight: bold;
+}
+p.ow-sign-off-checklist {
+   font-size: 13px;
+   color: #444;
+   font-weight: bold;
+   padding: 10px 10px 0 10px;
+}
+.ow-sign-off-text span {
+   color: #999;
+   font-size: 10px;
+}
+.ow-checkbox-content {
+   float: right;
+   width: 95%;
+}
+.post-priority {
+   padding: 8px;
+   text-align: center;
+   border-radius: 5px;
+   color: #fff !important;
+   font-weight: bold;
+}
+.urgent-priority{
+   background-color: red;
+}
+.high-priority{
+   background-color:orange;
+}
+.normal-priority{
+   background-color: #41a62a;
+}
+.low-priority{
+   background-color: #72777c;
+}
+.setting-top{
+   margin-top: 58px;
+}
+
+.ow-show-available-actors {
+   width: 430px;
+}
+
+.wf-desc{
+   display: inline;
+   position: relative;
+
+}
+
+.wf-desc span {
+   display:none;
+   position: absolute;
+   left:1.5em;
+   border-radius: 5px 5px; 
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+   -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
+   -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+   font-family: Calibri, Tahoma, Geneva, sans-serif;
+   margin-left: 0;
+   z-index: 999;
+
+}
+.wf-desc:hover span {
+   display:inline-block;
+   width: 300px;
+   margin-top: 20px;
+   z-index: 1001;
+}
+
+.hover-data { 
+	padding: 5px;
+	background: #d7ebf9; 
+	border: 1px solid #aed0ea; 
+	color: #2779aa; 
+}
+.owfe-loader {
+   height: 18px;
+   width: 20px !important;
+   display: block !important;
+}
+
+.description-checklist {
+   font-weight: normal;
+   font-size: 13px;
+   font-style: italic;
+   margin-left: 23px;
+}
+
+.ow-step-custom-data {
+   margin-top: -10px;
+   float: right;
+   width: 490px;
+}
+
+.ow-pre-publish-checkbox {
+   padding-left: 110px;
+}
+
+.ow-pre-publish-conditions {
+   margin-top: -10px;
+}
+
+.first-step-fieldset {
+   padding: 10px;
+   font: 100%;
+   border: 1px solid;
+   border-radius: 10px;
+}
+
+.first-step-fieldset legend {
+   font-weight:bold;
+   margin-right:5px;
+   text-align:left;
+}
+
+.column-comments .post-condition-count {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/*
+add-on
+*/
+.addon-section {
+    margin-top: 40px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.addon-list {
+    background: #ffffff none repeat scroll 0 0;
+    border-top: 5px solid #f29c2f;
+    cursor: pointer;
+    float: left;
+    height: 420px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 304px;
+}
+.addon-top {
+    height: 188px;
+    position: relative;
+    padding-bottom: 15px !important;
+}
+.addon-middle {
+    min-height: 170px;
+}
+.addon-middle h1{
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: bold;
+   padding-top: 15px;
+}
+.addon-middle p{
+   text-align: justify;
+}
+.addon-footer {
+    padding-top: 10px;
+}
+.indented-label {
+   margin-left: 25px;
+   font-size: 13px;
+   font-weight: normal;
+}
+.steps-loading {
+   float: right;
+   margin: 10px;
+   padding-left: 40px;
+   font-size: 16px;
+   font-weight: bold;
+   display: none;
+   width: 150px;
+   background-image: url( "../../img/ajax-loader.gif");
+   background-position: 10% 80%;
+   background-repeat: no-repeat;
+}
+#email-type-select {
+   margin-left: 2%;
+}
+.owf_fieldset .select2-container {
+   width: 270px;
+}
+.email-subject {
+   width: 80%;
+}
+.email-placeholders {
+   margin-left: 18%;
+}
+.owf_email_settings {
+   width:100%;
+}
+.owf_email_settings th {
+   vertical-align: top;
+    text-align: left;
+    padding: 12px 10px 18px 0;
+    width: 130px;
+    line-height: 1.3;
+}
+.owf-email-checkbox {
+   margin-right: 12px;
+}
+.claim-error p {
+   color:red;
+}
+
+ul.auto-submit-label {
+   display: inline-flex;
+   background-color: white;
+   width: 99.7%;
+   border: 1px solid #dddddd;  
+   margin-top: 20px;
+}
+ul.auto-submit-label li {
+   font-weight: 600;
+}
+
+ul.auto-submit-label li:first-child {
+   padding: 10px 45px 0 16px;
+}
+ul.auto-submit-label li:last-child {
+   padding: 10px 50px 0 150px;
+}
+
+.auto-submit-workflow input.add-workflow {
+   display:block;
+   margin-top: 5px;
+}
+.auto-submit-workflow {
+   background-color: white;
+   border: 1px solid #dddddd;
+   
+}
+.auto-submit-workflow div.owf-workflows {   
+   padding: 12px 12px 0 12px;
+}
+.auto-submit-workflow img {
+   height: 18px;
+}
+.auto-submit-workflow textarea {
+   height: 30px;
+   margin-left: 12px;
+   vertical-align: middle;
+}
+.remove-workflow {
+   background-color: #f2dede;
+}
+.owf-as-button {
+   margin-top: 12px;
+   background: #f5f5f5;
+   border-top: 1px solid #dddddd;
+   padding: 10px 0 10px 12px;
+}
+.icon-remove {
+   position: relative;
+   cursor: pointer;
+   margin-left: 12px;
+   padding: 8px 2px 4px 0;
+   vertical-align: middle;   
+}
+div.no-applicable-workflow {
+   padding: 15px;
+}
+#ow-system-info {
+    background: none;
+    font-family: Menlo, Monaco, monospace;
+    display: block;
+    overflow: auto;
+    white-space: pre;
+    width: 800px;
+    height: 400px;
+}
+.ow-tools #settingstuff {
+    width: 80%;
+}
+#abort-workflow-settings {
+   height: 251px;
+}
+.abort-set span.loading{
+    display:none;
+}

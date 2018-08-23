@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oasis Workflow Teams\n"
+"POT-Creation-Date: 2018-01-02 06:58-0800\n"
+"PO-Revision-Date: 2018-01-02 06:59-0800\n"
+"Last-Translator: Oasis Workflow <support@oasisworkflow.com>\n"
+"Language-Team: support@oasisworkflow.com\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext;esc_html__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-ow-teams-license-settings.php:62
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+
+#: includes/class-ow-teams-license-settings.php:79
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+
+#: includes/class-ow-teams-license-settings.php:99
+msgid "license key"
+msgstr ""
+
+#: includes/class-ow-teams-license-settings.php:104
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:373
+msgid ""
+"No users found for the given Team and Workflow assignee(s). Please check the "
+"team."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:385
+msgid "Post Author"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:611
+#: includes/class-ow-teams-settings.php:56
+msgid "Teams"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:613 ow-teams.php:764
+msgid "Add New Team"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:620
+msgid "All"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:626
+msgid "Has Users"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:632
+#: includes/class-ow-teams-service.php:749
+msgid "No Users"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:644
+#: includes/class-ow-teams-service.php:662
+#: includes/class-ow-teams-service.php:908
+#: includes/class-ow-teams-service.php:941
+#: includes/class-ow-teams-service.php:1081
+#: includes/class-ow-teams-service.php:1113
+msgid "Select All"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:648
+#: includes/class-ow-teams-service.php:666
+msgid "Team Name"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:651
+#: includes/class-ow-teams-service.php:669
+msgid "Users"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:654
+#: includes/class-ow-teams-service.php:672
+msgid "Associated Workflows"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:694
+msgid "Select"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:722
+msgid "View"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:729
+msgid "Edit"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:738
+#: includes/class-ow-teams-service.php:796
+#: includes/class-ow-teams-service.php:1029
+#: includes/class-ow-teams-service.php:1226
+msgid "Delete"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:764
+#: includes/class-ow-teams-service.php:1058
+#: includes/class-ow-teams-service.php:1147
+#: includes/class-ow-teams-service.php:1455
+msgid "All Workflows"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:771
+#: includes/class-ow-teams-service.php:1073
+#: includes/class-ow-teams-service.php:1396
+msgid "Associated Workflow(s)"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:774
+msgid "No Associated Workflow(s)"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:785
+msgid "No teams found."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:794
+#: includes/class-ow-teams-service.php:1028
+#: includes/class-ow-teams-service.php:1223
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:826
+msgid "Edit Workflow Team"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:826
+msgid "New Workflow Team"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:833
+#: includes/class-ow-teams-service.php:919
+#: includes/class-ow-teams-service.php:952
+#: includes/class-ow-teams-service.php:1312
+#: includes/class-ow-teams-service.php:1337
+msgid "Name"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:842
+msgid "Assign a name for the team to recognize it."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:848
+msgid "Description"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:855
+msgid "Add description about the team."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:861
+msgid "Add Member(s) to the Team"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:880
+msgid "Select users to add them to the team."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:884
+#: includes/class-ow-teams-service.php:1285
+msgid "Existing Team Member(s)"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:914
+#: includes/class-ow-teams-service.php:947
+#: includes/class-ow-teams-service.php:1307
+#: includes/class-ow-teams-service.php:1332
+msgid "User Name"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:924
+#: includes/class-ow-teams-service.php:956
+#: includes/class-ow-teams-service.php:1317
+#: includes/class-ow-teams-service.php:1341
+msgid "Email"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:929
+#: includes/class-ow-teams-service.php:961
+#: includes/class-ow-teams-service.php:1322
+#: includes/class-ow-teams-service.php:1346
+msgid "Role"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1013
+#: includes/class-ow-teams-service.php:1385
+msgid "No team members found."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1048
+msgid "Assign Workflow(s) to the Team"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1070
+msgid "Select Workflows to associate with team."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1087
+#: includes/class-ow-teams-service.php:1119
+#: includes/class-ow-teams-service.php:1403
+#: includes/class-ow-teams-service.php:1427
+msgid "Workflow Name"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1092
+#: includes/class-ow-teams-service.php:1124
+#: includes/class-ow-teams-service.php:1408
+#: includes/class-ow-teams-service.php:1432
+msgid "Version"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1097
+#: includes/class-ow-teams-service.php:1129
+#: includes/class-ow-teams-service.php:1413
+#: includes/class-ow-teams-service.php:1437
+msgid "Start Date"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1102
+#: includes/class-ow-teams-service.php:1134
+#: includes/class-ow-teams-service.php:1418
+#: includes/class-ow-teams-service.php:1442
+msgid "End Date"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1209
+#: includes/class-ow-teams-service.php:1513
+msgid "No associated workflow found."
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1589
+msgid "--Select a Team--"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1673
+msgid ""
+"Team doesn't have sufficient members to satisfy all the roles in the "
+"workflow. "
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1674
+msgid "Please add member(s) with the following roles: "
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1776
+msgid "Assigned Team"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1798
+msgid "None"
+msgstr ""
+
+#: includes/class-ow-teams-service.php:1835
+msgid "Assign to Team :"
+msgstr ""
+
+#: includes/class-ow-teams-settings.php:91
+msgid "Enable Workflow Teams ?"
+msgstr ""
+
+#: includes/class-ow-teams-settings.php:93
+msgid ""
+"(The checkbox will be available, if the Oasis Workflow Teams license is "
+"valid)"
+msgstr ""
+
+#: includes/class-ow-teams-settings.php:99
+msgid "Save"
+msgstr ""
+
+#: includes/class-ow-utility.php:85
+msgid "There's something wrong with your code..."
+msgstr ""
+
+#: ow-teams.php:203
+msgid "Welcome to Oasis Workflow Teams"
+msgstr ""
+
+#: ow-teams.php:206
+#, php-format
+msgid ""
+"1. Activate the add-on by providing a valid license key on Workflows %s "
+"Settings, License tab."
+msgstr ""
+
+#: ow-teams.php:207
+msgid "2. Create teams and start using teams in workflows."
+msgstr ""
+
+#: ow-teams.php:760
+msgid "All Teams"
+msgstr ""
+
+#: ow-teams.php:768
+msgid "Edit Team"
+msgstr ""
+
+#: ow-teams.php:771
+msgid "View Team"
+msgstr ""
+
+#: ow-teams.php:792
+msgid ""
+"The team cannot be deleted, since it's currently being used in a workflow."
+msgstr ""

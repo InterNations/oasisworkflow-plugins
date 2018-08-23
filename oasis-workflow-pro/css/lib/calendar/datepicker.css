@@ -1,0 +1,146 @@
+/*!
+ * jQuery UI CSS Framework 1.8.21
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-oasis .ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-oasis .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Component containers
+----------------------------------*/
+
+.ui-oasis .ui-widget-content { border: 1px solid #dddddd; background: #eeeeee url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
+.ui-oasis .ui-widget-content a { color: #333333; }
+.ui-oasis .ui-widget-header { border: 1px solid #e78f08; background: #f6a828 url(images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
+.ui-oasis .ui-widget-header a { color: #ffffff; }
+
+/* Interaction states
+----------------------------------*/
+.ui-oasis .ui-state-default, .ui-oasis .ui-widget-content .ui-oasis .ui-state-default, .ui-oasis .ui-widget-header .ui-state-default { border: 1px solid #cccccc; background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #1c94c4; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #1c94c4; text-decoration: none; }
+.ui-oasis .ui-widget-content .ui-state-hover, 
+.ui-oasis .ui-widget-header .ui-state-hover, 
+.ui-oasis .ui-state-focus, .ui-oasis .ui-widget-content .ui-state-focus, .ui-oasis .ui-widget-header .ui-state-focus { border: 1px solid #fbcb09; background: #fdf5ce url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #c77405; }
+.ui-oasis .ui-state-hover a, .ui-oasis .ui-state-hover a:hover { color: #c77405; text-decoration: none; }
+.ui-oasis .ui-widget-content .ui-state-active, 
+.ui-oasis .ui-widget-header .ui-state-active 
+{ 
+	border: 1px solid #fbd850; background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #eb8f00;
+}
+.ui-oasis .ui-state-active a, .ui-oasis .ui-state-active a:link, .ui-oasis .ui-state-active a:visited { color: #eb8f00; text-decoration: none; }
+.ui-oasis .ui-widget :active { outline: none; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-oasis .ui-widget-header .ui-icon-circle-triangle-w { 
+	width: 16px; height: 16px; 
+	background: transparent url(images/ui-icons_ef8c08_256x240.png) no-repeat -80px -190px;
+}
+.ui-oasis .ui-widget-header .ui-icon-circle-triangle-e { 
+	width: 16px; height: 16px; 
+	background: transparent url(images/ui-icons_ef8c08_256x240.png) no-repeat -48px -190px;
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-oasis .ui-corner-all, .ui-oasis .ui-corner-top, .ui-oasis .ui-corner-left, .ui-oasis .ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; -khtml-border-top-left-radius: 4px; border-top-left-radius: 4px; }
+.ui-oasis .ui-corner-all, .ui-oasis .ui-corner-top, .ui-oasis .ui-corner-right, .ui-oasis .ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; -khtml-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.ui-oasis .ui-corner-all, .ui-oasis .ui-corner-bottom, .ui-oasis .ui-corner-left, .ui-oasis .ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; -khtml-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.ui-oasis .ui-corner-all, .ui-oasis .ui-corner-bottom, .ui-oasis .ui-corner-right, .ui-oasis .ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; -khtml-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+
+/*!
+ * jQuery UI Datepicker 1.8.21
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+.ui-oasis .ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
+.ui-oasis .ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; }
+.ui-oasis .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev-hover, .ui-oasis .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.ui-oasis .ui-datepicker .ui-datepicker-prev { left:2px; }
+.ui-oasis .ui-datepicker .ui-datepicker-next { right:2px; }
+.ui-oasis .ui-datepicker .ui-datepicker-prev-hover { left:1px; }
+.ui-oasis .ui-datepicker .ui-datepicker-next-hover { right:1px; }
+.ui-oasis .ui-datepicker .ui-datepicker-prev span, .ui-oasis .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.ui-oasis .ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+.ui-oasis .ui-datepicker .ui-datepicker-title select { font-size:1em; margin:1px 0; }
+.ui-oasis .ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+.ui-oasis .ui-datepicker select.ui-datepicker-month, 
+.ui-oasis .ui-datepicker select.ui-datepicker-year { width: 49%;}
+.ui-oasis .ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+.ui-oasis .ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
+.ui-oasis .ui-datepicker td { border: 0; padding: 1px; }
+.ui-oasis .ui-datepicker td span, .ui-oasis .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+.ui-oasis .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.ui-oasis .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.ui-oasis .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+
+/* with multiple calendars */
+.ui-oasis .ui-datepicker.ui-datepicker-multi { width:auto; }
+.ui-oasis .ui-datepicker-multi .ui-datepicker-group { float:left; }
+.ui-oasis .ui-datepicker-multi .ui-datepicker-group table { width:95%; margin:0 auto .4em; }
+.ui-oasis .ui-datepicker-multi-2 .ui-datepicker-group { width:50%; }
+.ui-oasis .ui-datepicker-multi-3 .ui-datepicker-group { width:33.3%; }
+.ui-oasis .ui-datepicker-multi-4 .ui-datepicker-group { width:25%; }
+ui-oasis.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width:0; }
+.ui-oasis .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width:0; }
+.ui-oasis .ui-datepicker-multi .ui-datepicker-buttonpane { clear:left; }
+.ui-oasis .ui-datepicker-row-break { clear:both; width:100%; font-size:0em; }
+
+/* RTL support */
+.ui-oasis .ui-datepicker-rtl { direction: rtl; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-buttonpane { clear:right; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-group { float:right; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+.ui-oasis .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.ui-oasis .ui-datepicker-cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}
+
+#due-date, #start-date, #end-date, #publish-date{
+	background-color:white;
+	border:1px solid #ddd;	
+	-moz-border-radius:0.2em;
+	border-radius:0.2em;
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif; 
+}

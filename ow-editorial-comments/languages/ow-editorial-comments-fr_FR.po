@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oasis Workflow Editorial Comments\n"
+"POT-Creation-Date: 2018-06-08 18:10+0530\n"
+"PO-Revision-Date: 2018-06-08 18:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ow-editorial-comments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-editorial-comments-service.php:253
+msgid "View ( With Comments )"
+msgstr "Vue (avec commentaires)"
+
+#: includes/class-editorial-comments-service.php:294
+msgid "Contextual Text:"
+msgstr "Texte contextuel"
+
+#: includes/class-editorial-comments-service.php:295
+msgid "Contextual Comment:"
+msgstr "Commentaire de contextuelle"
+
+#: includes/class-editorial-comments-widget.php:35
+msgid "Editorial Comments"
+msgstr "Commentaires éditoriaux"
+
+#: includes/class-editorial-comments-widget.php:67
+msgid "Contextual Comments"
+msgstr "Commentaire de contextuelle"
+
+#: includes/class-editorial-comments-widget.php:121
+msgid "No comments for this post."
+msgstr "Aucun commentaire pour ce post."
+
+#: includes/class-editorial-comments-widget.php:201
+msgid "No Comments."
+msgstr "Pas de commentaire"
+
+#: includes/class-editorial-comments-widget.php:209
+msgid "Signed off on"
+msgstr "Signé"
+
+#: includes/class-ow-editorial-comments-license-settings.php:62
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+"Licence ne peut pas être désactivé. La clé de licence n'est pas valide ou le "
+"serveur de licences n'est pas joignable."
+
+#: includes/class-ow-editorial-comments-license-settings.php:79
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+"La licence ne peut être activée. La clé de licence n'est pas valide ou votre "
+"limite d'activation est atteinte."
+
+#: includes/class-ow-editorial-comments-license-settings.php:99
+msgid "license key"
+msgstr "clé de licence"
+
+#: includes/class-ow-editorial-comments-license-settings.php:104
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: includes/class-ow-utility.php:85
+msgid "There's something wrong with your code..."
+msgstr "Il ya quelque chose de mal avec votre code ... "
+
+#: includes/comments-upsert-popup.php:6 includes/contextual-comment-popup.php:6
+msgid "Editorial Comments On"
+msgstr "Commentaires sur"
+
+#: includes/comments-upsert-popup.php:13
+#: includes/contextual-comment-popup.php:13 ow-editorial-comments.php:559
+msgid "Contextual Comment"
+msgstr "Commentaire de contextuelle"
+
+#: includes/comments-upsert-popup.php:24
+#: includes/contextual-comment-popup.php:24
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/comments-view-popup.php:68
+msgid "Editorial Comments On: "
+msgstr "Commentaires sur :"
+
+#: includes/comments-view-popup.php:122
+msgid "Close"
+msgstr "Fermer"
+
+#: ow-editorial-comments.php:326
+msgid "Welcome to Oasis Workflow Editorial Comments"
+msgstr "Bienvenue a Oasis Workflow Editorial Comments"
+
+#: ow-editorial-comments.php:330
+#, php-format
+msgid ""
+"To get started with Editorial Comments, activate the add-on by providing a "
+"valid license key on Workflows %s Settings, License tab."
+msgstr ""
+"Pour commencer avec commentaires éditoriaux, activer le module "
+"complémentaire en fournissant une clé de licence valide sur les Workflows %s "
+"paramètres, onglet licence."
+
+#: ow-editorial-comments.php:331
+#, php-format
+msgid ""
+"Once the license is activated you will see a blurb button %s in the Post "
+"Editor's TinyMCE toolbar."
+msgstr ""
+"Une fois que la licence est activée, vous verrez un bouton de blurb %s dans "
+"la barre d'outils de l'éditeur TinyMCE."
+
+#: ow-editorial-comments.php:332
+msgid ""
+"Select a text in the post content area, click the blurb icon and start "
+"adding contextual comments."
+msgstr ""
+"Sélectionner un texte dans la zone de contenu de message, cliquez sur "
+"l'icône de texte de présentation et commencer à ajouter des commentaires "
+"contextuels."
+
+#: ow-editorial-comments.php:558
+msgid "Contextual Text"
+msgstr "Texte contextuel"
+
+#: ow-editorial-comments.php:560
+msgid "Editorial Comment On"
+msgstr "Commentaire éditorial sur"
+
+#. Plugin Name of the plugin/theme
+msgid "Oasis Workflow Editorial Comments"
+msgstr "Oasis Workflow Editorial Comments"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oasisworkflow.com"
+msgstr "http://www.oasisworkflow.com"
+
+#. Description of the plugin/theme
+msgid "Contextual Editorial Comments for Oasis Workflow"
+msgstr "Contextuelles commentaires éditoriaux pour Oasis Workflow"
+
+#. Author of the plugin/theme
+msgid "Nugget Solutions Inc."
+msgstr "Nugget Solutions Inc."
+
+#. Author URI of the plugin/theme
+msgid "http://www.nuggetsolutions.com"
+msgstr "http://www.nuggetsolutions.com"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "Il y a une nouvelle version de %1$s disponible. <a target=\"_blank\" "
+#~ "class=\"thickbox\" href=\"%2$s\">Voir les détails de la version %3$s </a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Il y a une nouvelle version de %1$s disponible. <a target=\"_blank\" "
+#~ "class=\"thickbox\" href=\"%2$s\">Voir les %3$s détails de la version</a> "
+#~ "or <a href=\"%4$s »>mettez à jour maintenant</a>."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr ""
+#~ "Vous n’avez pas la permission d’installer des mises à jour d’extension"
+
+#~ msgid "Error"
+#~ msgstr "Erreur"
+
+#~ msgid "Additionally,"
+#~ msgstr "Par ailleurs,"
+
+#~ msgid "added the following comments"
+#~ msgstr "a ajouté les commentaires suivants"

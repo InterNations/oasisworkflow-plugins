@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oasis Workflow ACF Compare\n"
+"POT-Creation-Date: 2018-07-25 17:12+0530\n"
+"PO-Revision-Date: 2018-07-25 17:12+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ow-acf-compare.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ow-acf-compare-license-settings.php:62
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+"Licence ne peut pas être désactivé. La clé de licence n'est pas valide ou le "
+"serveur de licences n'est pas joignable."
+
+#: includes/class-ow-acf-compare-license-settings.php:79
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+"La licence ne peut être activée. La clé de licence n'est pas valide ou votre "
+"limite d'activation est atteinte."
+
+#: includes/class-ow-acf-compare-license-settings.php:99
+msgid "license key"
+msgstr "clé de licence"
+
+#: includes/class-ow-acf-compare-license-settings.php:104
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: includes/class-ow-acf-compare-revision-service.php:38
+msgid "Custom Fields"
+msgstr "Les champs personnalisés"
+
+#: includes/class-ow-utility.php:86
+msgid "There's something wrong with your code..."
+msgstr "Il ya quelque chose de mal avec votre code ... "
+
+#: ow-acf-compare.php:330
+msgid "Welcome to Oasis Workflow ACF Compare"
+msgstr "Welcome to Oasis Workflow ACF Compare"
+
+#: ow-acf-compare.php:334
+#, php-format
+msgid ""
+"To get started with ACF Compare, activate the add-on by providing a valid "
+"license key on Workflows %s Settings, License tab."
+msgstr ""
+"Pour commencer avec ACF comparer, activer le module complémentaire en "
+"fournissant une clé de licence valide sur les Workflows %s paramètres, "
+"onglet licence."
+
+#. Plugin Name of the plugin/theme
+msgid "Oasis Workflow ACF Compare"
+msgstr "Oasis Workflow ACF Compare"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oasisworkflow.com"
+msgstr "http://www.oasisworkflow.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Compare Advanced Custom Fields between the original and revised article."
+msgstr "Comparer Advanced Custom Fields entre l'article original et révisé."
+
+#. Author of the plugin/theme
+msgid "Nugget Solutions Inc."
+msgstr "Nugget Solutions Inc."
+
+#. Author URI of the plugin/theme
+msgid "http://www.nuggetsolutions.com"
+msgstr "http://www.nuggetsolutions.com"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "Il y a une nouvelle version de %1$s disponible. <a target=\"_blank\" "
+#~ "class=\"thickbox\" href=\"%2$s\">Voir les détails de la version %3$s </a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Il y a une nouvelle version de %1$s disponible. <a target=\"_blank\" "
+#~ "class=\"thickbox\" href=\"%2$s\">Voir les %3$s détails de la version</a> "
+#~ "or <a href=\"%4$s »>mettez à jour maintenant</a>."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr ""
+#~ "Vous n’avez pas la permission d’installer des mises à jour d’extension"
+
+#~ msgid "Error"
+#~ msgstr "erreur"
+
+#~ msgid "To compare advanced custom fields between two article revisions"
+#~ msgstr ""
+#~ "Pour comparer des champs personnalisés de pointe entre deux révisions de "
+#~ "l'article"

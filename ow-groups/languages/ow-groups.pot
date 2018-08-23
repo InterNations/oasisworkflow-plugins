@@ -1,0 +1,235 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Oasis Workflow Groups\n"
+"POT-Creation-Date: 2017-01-19 10:39-0800\n"
+"PO-Revision-Date: 2016-03-06 08:33-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ow-groups.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ow-groups-plugin-license-settings.php:62
+msgid ""
+"License cannot be deactivated. Either the license key is invalid or the "
+"licensing server cannot be reached."
+msgstr ""
+
+#: includes/class-ow-groups-plugin-license-settings.php:79
+msgid ""
+"License cannot be activated. Either the license key is invalid or your "
+"activation limit is reached."
+msgstr ""
+
+#: includes/class-ow-groups-plugin-license-settings.php:99
+msgid "license key"
+msgstr ""
+
+#: includes/class-ow-groups-plugin-license-settings.php:104
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/class-ow-groups-plugin-updater.php:181
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: includes/class-ow-groups-plugin-updater.php:188
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: includes/class-ow-groups-plugin-updater.php:326
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/class-ow-groups-plugin-updater.php:326
+msgid "Error"
+msgstr ""
+
+#: includes/class-ow-groups-service.php:220
+#: includes/pages/ow-groups-list.php:34
+msgid "Groups"
+msgstr ""
+
+#: includes/class-ow-groups-service.php:471
+#: includes/pages/ow-create-group.php:69 includes/pages/ow-create-group.php:80
+msgid "Select All"
+msgstr ""
+
+#: includes/class-ow-groups-service.php:474
+msgid "Group Name"
+msgstr ""
+
+#: includes/class-ow-groups-service.php:477
+msgid "Users"
+msgstr ""
+
+#: includes/class-ow-groups-service.php:480
+msgid "Used By Workflows"
+msgstr ""
+
+#: includes/class-ow-utility.php:107
+msgid "There's something wrong with your code..."
+msgstr ""
+
+#: includes/pages/ow-create-group.php:10
+msgid "Edit Workflow Group"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:10
+msgid "New Workflow Group"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:15 includes/pages/ow-create-group.php:70
+#: includes/pages/ow-create-group.php:81
+msgid "Name"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:17
+msgid "Assign a name for the group to recognize it."
+msgstr ""
+
+#: includes/pages/ow-create-group.php:21
+msgid "Description"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:23
+msgid "Add description about the group."
+msgstr ""
+
+#: includes/pages/ow-create-group.php:27
+msgid "Add User(s) to the Group"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:45
+msgid "Select users to add them to the group."
+msgstr ""
+
+#: includes/pages/ow-create-group.php:49
+msgid "Existing Group Member (s)"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:71 includes/pages/ow-create-group.php:82
+msgid "User Name"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:72 includes/pages/ow-create-group.php:83
+msgid "Email"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:73 includes/pages/ow-create-group.php:84
+msgid "Role"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:108
+msgid "View Profle of "
+msgstr ""
+
+#: includes/pages/ow-create-group.php:120
+msgid "No group members found."
+msgstr ""
+
+#: includes/pages/ow-create-group.php:135 includes/pages/ow-groups-list.php:154
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/pages/ow-create-group.php:136 includes/pages/ow-groups-list.php:127
+#: includes/pages/ow-groups-list.php:155
+msgid "Delete"
+msgstr ""
+
+#: includes/pages/ow-groups-list.php:37 ow-groups.php:575 ow-groups.php:576
+msgid "Add New Group"
+msgstr ""
+
+#: includes/pages/ow-groups-list.php:45
+msgid "All"
+msgstr ""
+
+#: includes/pages/ow-groups-list.php:53
+msgid "Has Users"
+msgstr ""
+
+#: includes/pages/ow-groups-list.php:60
+msgid "No Users"
+msgstr ""
+
+#: includes/pages/ow-groups-list.php:92
+msgid "Select"
+msgstr ""
+
+#: includes/pages/ow-groups-list.php:120
+msgid "Edit"
+msgstr ""
+
+#: includes/pages/ow-groups-list.php:135
+#, php-format
+msgid "%d User"
+msgid_plural "%d Users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/pages/ow-groups-list.php:145
+msgid "No groups found."
+msgstr ""
+
+#: ow-groups.php:399
+msgid "Welcome to Oasis Workflow Groups"
+msgstr ""
+
+#: ow-groups.php:402
+#, php-format
+msgid ""
+"1. Activate the add-on by providing a valid license key on Workflows %s "
+"Settings, License tab."
+msgstr ""
+
+#: ow-groups.php:403
+msgid "2. Create user groups and assign user groups to workflow steps."
+msgstr ""
+
+#: ow-groups.php:544
+msgid ""
+"The group cannot be deleted, since it's currently being used in a workflow."
+msgstr ""
+
+#: ow-groups.php:566 ow-groups.php:567
+msgid "All Groups"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Oasis Workflow Groups"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oasisworkflow.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create and Manage user groups to work with Oasis Workflow."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Nugget Solutions Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.nuggetsolutions.com"
+msgstr ""
