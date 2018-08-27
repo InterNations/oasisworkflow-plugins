@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
    exit();
 }
 
-global $ow_custom_statuses;
+$ow_custom_statuses = new OW_Custom_Statuses();
 $terms = $ow_custom_statuses->get_all_custom_statuses();
 ?>
 <div class="wrap">
