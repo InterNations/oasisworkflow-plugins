@@ -261,8 +261,8 @@ class OW_Custom_Statuses {
     * @since 4.9
     */
    public function display_custom_post_status() {
-      global $post, $ow_custom_statuses;
-      $custom_statuses = $ow_custom_statuses->get_all_custom_statuses();
+      global $post;
+      $custom_statuses = $this->get_all_custom_statuses();
 
       foreach ( $custom_statuses as $custom_status ) {
          if ($custom_status->slug === $post->post_status) {
