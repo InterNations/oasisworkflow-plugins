@@ -1,1 +1,0 @@
-<div class="owfe-alert owfe-alert-danger"><?php _e("You need to be logged in to view this page.", "owfrontendactions"); ?></div>

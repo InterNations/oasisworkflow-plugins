@@ -1,1 +1,0 @@
-<div class='owfe-alert owfe-alert-success'><?php _e("Hurray! No Assigned tasks.", "owfrontendactions");?></div>
